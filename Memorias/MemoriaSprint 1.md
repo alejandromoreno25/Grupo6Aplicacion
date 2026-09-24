@@ -70,19 +70,19 @@ Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de l
 * **Fuentes de datos:** Se utilizarán APIs externas o bases de datos simuladas llamadas mock data para la obtención de alojamientos y lugares de interés. *Quedan fuera del alcance del proyecto la pasarela de pagos reales.*
 * **Seguridad:** Posibilidad de Iniciar Sesión o Registrarse con sus datos personales para guardar sus viajes o progresos.
 
-## 2. OBJETIVOS
+### 1.4 Objetivos
 Para nuestra aplicación hemos planteado los siguientes objetivos:
-### 2.1 Objetivo principal
+#### 1.4.1 Objetivo principal
 Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itinerarios de viaje diarios personalizados y seleccione alojamientos económicos según el presupuesto del usuario, mediante una interfaz intuitiva que optimice su tiempo y recursos económicos.
 
-### 2.2 Objetivos específicos 
+#### 1.4.2 Objetivos específicos 
 
 1. **Diseñar e implementar un módulo de gestión de usuarios y viajes** que permita crear cuentas, guardar preferencias de viaje y registrar destinos con fechas y presupuestos delimitados.
 2. **Desarrollar un sistema de recomendación de alojamientos e itinerarios** que filtre y organice automáticamente lugares de interés y sitios de comida según el gasto diario fijado por el usuario.
 3. **Construir un módulo de diario de viaje multimedia** donde el usuario pueda subir y clasificar fotografías organizadas por cada día de su itinerario.
 4. **Garantizar la multiplataforma del sistema** mediante una arquitectura responsive (web y móvil) conectada a una base de datos centralizada.
 
-## 3. REFERENCIAS
+## 12. REFERENCIAS
 ### Referencias de texto
 
 ### Referencias Visuales
