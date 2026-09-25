@@ -1,6 +1,6 @@
 <p align="center">
   <img src="/assets/logoLazyTrip.png" alt="Logo LazyTrip" width="220"/>
-</p>
+</p> 
 
 #  Presentación del Proyecto: LazyTrip
 ¡Bienvenidos al repositorio oficial de **LazyTrip**!
