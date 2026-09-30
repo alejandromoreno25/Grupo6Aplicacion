@@ -30,8 +30,9 @@ El funcionamiento principal se basa en que el usuario introduce el destino, las 
 Además contará con una galería en la que el usuario podrá subir fotos de cada día de su viaje a modo de itinerario y así guardar recuerdo de su viaje.
 
 ### 1.2 Contexto y definición del problema:
-Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. 
-Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recabado más de **30 respuestas y testimonios** que nos han permitido identificar el problema principal.
+Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología Lean Startup y su fase de Customer Discovery que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
+
+Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que nos han permitido identificar el problema principal.
 
 Tras analizar los resultados obtenidos tenemos la sensación de que viajar es algo reservado solo para gente con un poder adquisitivo alto, o que hace falta tener muchísimos ahorros para hacer una escapada incluso a un país vecino. Esto ocurre en gran medida porque acudir a agencias de viajes o agentes privados incrementa considerablemente los costes finales.
 ㅤㅤㅤㅤㅤ
