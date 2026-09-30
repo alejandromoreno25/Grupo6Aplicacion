@@ -96,6 +96,10 @@ Este documento organiza la documentación del proyecto siguiendo los requisitos 
 * **4. Prototipo e Interfaz de la Aplicación:** Presentación y enlace al **Prototipo Interactivo fiable** desarrollado en herramientas como Figma/Canva que simula el funcionamiento de la app y descripción de la maquetación ejecutable 
 * **5. Entregables y Conclusiones:** URL del repositorio GitHub, enlace al prototipo navegable ejecutable y  presentación del sprint en 10 minutos.
 
+## 2. Análisis del contexto y viabilidad
+###  2.1. Sector profesional y perfil de usuarios
+   El proyecto se enmarca dentro del sector del Turismo. El perfil de usuario objetivo abarca: Jóvenes y estudiantes: Con presupuesto ajustado y deseo de realizar escapadas sin dedicar horas a la planificación.   Viajeros independientes: Personas que desean evitar las comisiones de agencias de viaje y buscan flexibilidad para organizar su estancia respetando un presupuesto estricto.
+
 ## 12. REFERENCIAS
 ### Referencias de texto
 
