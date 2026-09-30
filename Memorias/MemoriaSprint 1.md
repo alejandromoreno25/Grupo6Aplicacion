@@ -14,7 +14,7 @@
 ## PORTADA Y DECLARACIÓN DE AUTORÍA
 * **Autor / Scrum Master:** Alejandro Moreno Luna  
 * **Especialista UI/UX (Frontend):** 
-* **Desarrollador de Lógica (Backend):** 
+* **Desarrollador de Lógica (Backend):** Joaquin Torrubia Oria y Antonio Muñoz
 * **QA Tester & Release Manager:**
 
 **Centro:** FP Superior Campus Cámara Comercio Sevilla
