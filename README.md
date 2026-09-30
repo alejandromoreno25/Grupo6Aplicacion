@@ -2,7 +2,7 @@
   <img src="/assets/logoLazyTrip.png" alt="Logo LazyTrip" width="220"/>
 </p> 
 
-# ¿Qué vamos a hacer?
+# ¿Qué es este Repositorio?
 Este repositorio está dedicado a la subida de archivos, documentación y memoria de nuestro proyecto de segundo de desarrollo de aplicaciones multiplataforma, sobre nuestra aplicación LazyTrip.
 ##  Presentación del Proyecto: LazyTrip
 estamos desarrollando una aplicación pensada para transformar la experiencia de viajar.La idea nace con el objetivo de resolver el caos y la pérdida de tiempo que suele suponer planificar un viaje desde cero.
