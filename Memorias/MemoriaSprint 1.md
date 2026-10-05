@@ -31,7 +31,7 @@ Además contará con una galería en la que el usuario podrá subir fotos de cad
 
 ### 1.2 Contexto, definición del problema y Propuesta de Solución:
 ---
-Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología Lean Startup y su fase de Customer Discovery que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
+Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología **Lean Startup y su fase de Customer Discovery** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
 
 Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que nos han permitido identificar el problema principal.
 
@@ -132,12 +132,11 @@ Tripadvisor cuenta con departamentos de:
 ---
 Ofrece una extensa oferta global de alojamientos particulares, apartamentos vacacionales y opciones únicas. Facilita la comunicación directa con los anfitriones y cuenta con un sistema de valoraciones reales. Incluye la opción de contratar experiencias turísticas organizadas por residentes locales.
 
-### 1.5.4 **Contras:**
+#### 1.5.4 **Contras:**
 ---
 Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que encarecen el precio final. Carece por completo de herramientas para la planificación y estructura de itinerarios diarios. La calidad del servicio resulta variable al no contar con la estandarización propia del sector hotelero.
 
-### 1.5.5 **Limitaciones:**
----
+#### 1.5.5 **Limitaciones:**
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 
 ### 1.5.6 **Tabla Comparativa**
@@ -151,7 +150,6 @@ Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un pr
 
 ### 1.6 Estructura de la memoria
 ---
-
 Este documento organiza la documentación del proyecto siguiendo los requisitos exigidos para el proyecto intermodular y el Sprint 1:
 
 * **1. Introducción:** Presentación de la idea general del proyecto LazyTrip, contexto y justificación del problema mediante datos de encuestas reales, delimitación del alcance, objetivos generales/específicos,  y esta misma estructura.
