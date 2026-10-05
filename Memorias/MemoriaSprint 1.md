@@ -86,6 +86,8 @@ Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itiner
 2. **Desarrollar un sistema de recomendación de alojamientos e itinerarios** Sistema automatizado que filtre y organice lugares de interés y sitios de comida según el gasto diario fijado por el usuario y cómo este desee gestionar su tiempo y ritmo de actividades.
 3. **Construir un módulo de diario de viaje multimedia** Apartado personal donde el usuario pueda subir y clasificar fotografías organizadas por cada día de su itinerario.
 4. **Garantizar la multiplataforma del sistema** Acceso desde diferentes dispositivos mediante una arquitectura responsive (web y móvil) conectada a una base de datos centralizada.
+5. **Buscar opciones accesibles para todos** Según el estudio que hemos llevado a cabo sobre otras aplicaciones, en muchas de ellas no existen opciones de alojamientos accesibles para personas con discapacidad, por lo que es una de las funcionalidades que añadiremos en nuestra app.
+6. **Ofrecer una solución intuitiva para todas las edades** Siendo conscientes de que esta aplicación podría ser utilizada por todos los espectros de edad, nuestra interfaz debería resultar intuitiva y fácil de usar para todos los usuarios, para evitar con ello la brecha digital. 
 ---
 
 ### 1.5 BenchMarking y Análisis de Empresas.
