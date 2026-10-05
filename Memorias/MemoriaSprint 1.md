@@ -110,7 +110,7 @@ Diferencias con LazyTrip
 -**LazyTrip**: automatiza la planificación según presupuesto, fechas y preferencias.
 -**LazyTrip:** está enfocada principalmente en jóvenes y viajeros con presupuesto limitado.
 
-**Organización**
+### 1.5.1**Organización**
 Tripadvisor cuenta con departamentos de:
 
 -Desarrollo y tecnología.
@@ -120,7 +120,7 @@ Tripadvisor cuenta con departamentos de:
 -Gestión de contenido y opiniones.
 -Datos e inteligencia artificial.
 
-**Limitaciones y mejoras**
+### 1.5.2**Limitaciones y mejoras**
 -**Mucha información** : LazyTrip mostrará opciones más personalizadas.
 -**Planificación manual** : LazyTrip generará itinerarios automáticamente.
 -**Falta de conexión** : permitir consultar el viaje sin Internet.
@@ -128,19 +128,26 @@ Tripadvisor cuenta con departamentos de:
 
 **Airbnb**
 
-**Pros:**
-
+#### 1.5.3 **Pros:**
+---
 Ofrece una extensa oferta global de alojamientos particulares, apartamentos vacacionales y opciones únicas. Facilita la comunicación directa con los anfitriones y cuenta con un sistema de valoraciones reales. Incluye la opción de contratar experiencias turísticas organizadas por residentes locales.
 
-**Contras:**
-
+### 1.5.4 **Contras:**
+---
 Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que encarecen el precio final. Carece por completo de herramientas para la planificación y estructura de itinerarios diarios. La calidad del servicio resulta variable al no contar con la estandarización propia del sector hotelero.
 
-**Limitaciones:**
-
+### 1.5.5 **Limitaciones:**
+---
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 
-<img width="861" height="343" alt="image" src="https://github.com/user-attachments/assets/46f931a4-8df3-4598-ba12-0c2404486f23" />
+### 1.5.6 **Tabla Comparativa**
+| Plataforma | Itinerarios automáticos | Ajuste a presupuesto | Alojamiento económico | Diario multimedia | Ahorro de tiempo |
+|---|---|---|---|---|---|
+| **LazyTrip** | Sí, según presupuesto e intereses | Sí, límite global por persona | Sí, mediante algoritmo de selección | Sí, fotos organizadas por día | Alto, automatizado |
+| **Booking.com** | No | Parcial, por noche | Sí, catálogo hotelero | No | Bajo, proceso manual |
+| **TripAdvisor** | No, armado manual | No | Sí, comparador de tarifas | No | Bajo, proceso manual |
+| **Airbnb** | No | Parcial, por noche | Sí, particulares | No | Bajo, proceso manual |
+| **Google Trips** | No, solo agrupa reservas | No | Sí, buscador centralizado | No | Medio, vía correo |
 
 ### 1.6 Estructura de la memoria
 ---
