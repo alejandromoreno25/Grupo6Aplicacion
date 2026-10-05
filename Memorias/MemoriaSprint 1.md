@@ -43,10 +43,10 @@ Tras analizar los resultados obtenidos tenemos la sensación de que viajar es al
 ㅤㅤㅤㅤㅤㅤㅤㅤ***Imagen 1: Resultados de la encuesta inicial sobre preferencias y necesidades de los usuarios.***
 ![IMAGEN DE RESPALDO](/assets/Datosencuesta1.png)
 
-Como se ve en la gráfica, los datos son muy claros: casi el 70 % de los encuestados cree que viajar hoy en día es demasiado caro o que buscar opciones baratas quita muchísimo tiempo. Si contamos también a quienes están indecisos, el número sube al 87,5 %. Esto demuestra, que las personas necesitan una App como "LazyTrip" que ayude a erradicar esos problemas con los que muchos jóvenes se encuentran a diario.
+Nos plantea la siguiente pregunta: ¿ Crees que viajar hoy en día es demasido caro o que organizar un viaje económico es demasiado caro?.
+Los resultados fueron claros, como se ve en la grafica más de un 70% de las personas que hicieron la encuesta, contestaron que viajar hoy en dia es demsiado caro o que les suponia demasiado tiempo al planearlo. Ademas no es solo eso, sino que si sumas a los que estan indecisos el porcentaje sube a 87,5%. Con esta informacion nos demuestra que se necesita una aplicacion que te diga las mejores ofertas o actividades que puedes hacer en esa zona. Son muchos los jovenes y peronas que quieren un presupuesto mas ajustado, porque ahorrar y viajar, se piensa que no es compatible, esto es algo que LazyTrip quremos hacer posible.
 
-Por otro lado, aunque es posible buscarlo todo por internet de forma individual, esto requiere dedicar muchísimas horas a comparar sitios, alojamientos y presupuestos. Tras analizar otras aplicaciones del mercado, hemos detectado que ninguna ofrece la opción de generar un itinerario guiado y personalizado según lo que más le interese al usuario cada día de su viaje.
-ㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+Aunque se pueda hacer forma invidual, se necesita dedicar muchas horas a estar comparando precios y alojamientos en diferentes plataformas. Hemos detectado que ninguna ofrece la opción de generar un itinerario guiado y personalizado según lo que más le interese al usuario cada día de su viaje.
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 
 ㅤㅤㅤㅤㅤ***Imagen 2: Usuarios que afirman que plataformas de viaje no incluyen ninguna función de itinerarios personalizados.***
