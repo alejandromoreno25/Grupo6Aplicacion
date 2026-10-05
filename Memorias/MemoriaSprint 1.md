@@ -15,7 +15,7 @@
 * **Autor / Scrum Master:** Alejandro Moreno Luna  
 * **Especialista UI/UX (Frontend):** 
 * **Desarrollador de Lógica (Backend):** Joaquin Torrubia Oria y Antonio Muñoz
-* **QA Tester & Release Manager:**
+* **QA Tester & Release Manager:** Víctor Pérez Martínez
 
 **Centro:** FP Superior Campus Cámara Comercio Sevilla
   
