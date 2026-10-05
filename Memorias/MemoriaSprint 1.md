@@ -53,7 +53,8 @@ Por otro lado, aunque es posible buscarlo todo por internet de forma individual,
 
 ![IMAGEN DE RESPALDO](/assets/Datosencuesta2.png)
 
-Los datos lo dejan claro, como podemos ver  el 84,4 % de los encuestados echa en falta un itinerario automático en apps como Booking o TripAdvisor un 56,3 % afirma que le ahorraría muchísimo tiempo y un 28,1 % lo usaría según el destino. Solo un 15,6 % prefiere hacerlo a mano, lo que confirma que LazyTrip responde a una necesidad real del mercado. Además hoy en día vivimos en una sociedad muy ocupada y llena de trabajo o preocupaciones por lo que ahorraría mucho tiempo en organización de viajes.
+La siguiente pregunta nos plantea: ¿ Echas en falta una herramienta que arme un itinerario diario automatico ajustado a tu dinero ?.
+En esta pregunta los resultados lo volvieron a dejar mas claro. Los datos lo dejan claro, como podemos ver el 84,4 % de los encuestados echa en falta un itinerario automático en apps como Booking o TripAdvisor un 56,3 % afirma que le ahorraría muchísimo tiempo y un 28,1 % lo usaría según el destino. Solo un 15,6 % prefiere hacerlo a mano, lo que confirma que LazyTrip responde a una necesidad real del mercado. Hoy en día, vivimos en una sociedad muy ocupada y llena de trabajo o preocupaciones por lo que ahorraría mucho tiempo en organización de viajes. Lo que busca LazyTrip es hacerte los viajes mas comodos, y que se ajusten a ti.
 
 Por ello a modo de conclusión queremos decir que:
 
