@@ -94,16 +94,16 @@ Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itiner
 ---
 Hablaremos sobre la diferencia que hay entre Tripadvisor y Airbnb respecto a nuestro proyecto LazyTrip
 
-Tripadvisor
+**Tripadvisor**
 Descripción
 Tripadvisor es una aplicación de viajes donde se pueden buscar hoteles, restaurantes, actividades y destinos, además de consultar opiniones de otros viajeros.
 
 Diferencias con LazyTrip
--Tripadvisor: ofrece muchas opciones y el usuario organiza su viaje.
--LazyTrip: automatiza la planificación según presupuesto, fechas y preferencias.
--LazyTrip: está enfocada principalmente en jóvenes y viajeros con presupuesto limitado.
+-**Tripadvisor**: ofrece muchas opciones y el usuario organiza su viaje.
+-**LazyTrip**: automatiza la planificación según presupuesto, fechas y preferencias.
+-**LazyTrip:** está enfocada principalmente en jóvenes y viajeros con presupuesto limitado.
 
-Organización
+**Organización**
 Tripadvisor cuenta con departamentos de:
 
 -Desarrollo y tecnología.
@@ -113,22 +113,23 @@ Tripadvisor cuenta con departamentos de:
 -Gestión de contenido y opiniones.
 -Datos e inteligencia artificial.
 
-Limitaciones y mejoras
--Mucha información : LazyTrip mostrará opciones más personalizadas.
--Planificación manual : LazyTrip generará itinerarios automáticamente.
--Falta de conexión : permitir consultar el viaje sin Internet.
--Sincronización : mantener actualizados viajes, gastos y actividades.
+**Limitaciones y mejoras**
+-**Mucha información** : LazyTrip mostrará opciones más personalizadas.
+-**Planificación manual** : LazyTrip generará itinerarios automáticamente.
+-**Falta de conexión** : permitir consultar el viaje sin Internet.
+-**Sincronización** : mantener actualizados viajes, gastos y actividades.
 
-Airbnb
-Pros:
+**Airbnb**
+
+**Pros:**
 
 Ofrece una extensa oferta global de alojamientos particulares, apartamentos vacacionales y opciones únicas. Facilita la comunicación directa con los anfitriones y cuenta con un sistema de valoraciones reales. Incluye la opción de contratar experiencias turísticas organizadas por residentes locales.
 
-Contras:
+**Contras:**
 
 Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que encarecen el precio final. Carece por completo de herramientas para la planificación y estructura de itinerarios diarios. La calidad del servicio resulta variable al no contar con la estandarización propia del sector hotelero.
 
-Limitaciones:
+**Limitaciones:**
 
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 
