@@ -132,13 +132,7 @@ Limitaciones:
 
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 
-Criterio	LazyTrip	Booking.com	TripAdvisor	Airbnb	Google Trips
-Itinerarios automáticos	Sí, según presupuesto e intereses	No	No, manual	No	No, reservas
-Ajuste a presupuesto	Sí, límite global por persona	Parcial	No	Parcial	No
-Alojamiento económico	Sí, mediante algoritmo de selección	Sí, catálogo hotelero	Sí, comparador de tarifas	Sí, particulares	Sí, buscador
-Diario multimedia	Sí, fotos organizadas por día	No	No	No	No
-Ahorro de tiempo	Alto, automatizado	Bajo, manual	Bajo, manual	Bajo, manual	Medio, correo
-Multiplataforma	Sí, Web y Móvil	Sí, Web y App	Sí, Web y App	Sí, Web y App	No, solo Web y Maps
+<img width="861" height="343" alt="image" src="https://github.com/user-attachments/assets/46f931a4-8df3-4598-ba12-0c2404486f23" />
 
 ### 1.6 Estructura de la memoria
 ---
