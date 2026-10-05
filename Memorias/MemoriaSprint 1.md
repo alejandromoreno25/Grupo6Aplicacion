@@ -29,7 +29,7 @@ El funcionamiento principal se basa en que el usuario introduce el destino, las 
 
 Además contará con una galería en la que el usuario podrá subir fotos de cada día de su viaje a modo de itinerario y así guardar recuerdo de su viaje.
 
-### 1.2 Contexto y definición del problema:
+### 1.2 Contexto, definición del problema y Propuesta de Solución:
 ---
 Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología Lean Startup y su fase de Customer Discovery que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
 
@@ -61,6 +61,13 @@ Por ello a modo de conclusión queremos decir que:
 El problema que queremos resolver con LazyTrip es precisamente ese, demostrar que viajar no tiene por qué ser tan caro si se gestiona de forma inteligente, evitando los costes extra de intermediarios y ahorrando al usuario todo el tiempo que conlleva organizar un viaje paso a paso.
 
 [Ver Resultados de la Encuesta de Viajes (Google Forms)](https://docs.google.com/forms/d/1md7psvZ9x08voK7zRiic7U_xJHFKZ1plC8UFBwDeojA/viewanalytics)
+
+#### 1.2.1 Propuesta De Solución:
+---
+tras analizar los datos de la encuesta, contextualizar el problema y exponerlo, aquí os explicamos la solución mas fiable de esos problemas.
+Como bien hemos dicho, la solución mas fiable seria la de LazyTrip. Crear una aplicación que permite organizar viajes para presupuestos ajustados, puede hacer que muchas personas que sufren por diferentes
+motivos los resultados de esa encuesta tengan la oportunidad de viajar que nunca han tenido.
+Por ello, proponemos la implementación de lazytrip que reserva alojamientos con presupuestos ajustados, gestiona itinerarios de viaje acorde a tus necesidades, crea álbumes de fotos para hacer permanente los recuerdos de tu viaje y ofrece la posibilidad de cambiar actividades del itinerario según valoración o preferencia.
 
 ### 1.3 Delimitación del proyecto
 ---
