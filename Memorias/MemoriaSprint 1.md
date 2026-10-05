@@ -86,7 +86,9 @@ Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itiner
 3. **Construir un módulo de diario de viaje multimedia** donde el usuario pueda subir y clasificar fotografías organizadas por cada día de su itinerario.
 4. **Garantizar la multiplataforma del sistema** mediante una arquitectura responsive (web y móvil) conectada a una base de datos centralizada.
 
-### 1.5 Estructura de la memoria
+### 1.5 BenchMarking y Análisis de Empresas.
+
+### 1.6 Estructura de la memoria
 
 Este documento organiza la documentación del proyecto siguiendo los requisitos exigidos para el proyecto intermodular y el Sprint 1:
 
