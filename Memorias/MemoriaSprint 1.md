@@ -25,7 +25,6 @@
 Planificación de viajes, Aplicación Multiplataforma, Itinerarios Automáticos, Optimización de Presupuesto, Desarrollo de Interfaces, MVC, Scrum, DAM.
 
 ## 1. INTRODUCCIÓN
----
 ### 1.1 Idea general del proyecto:
 La idea principal de nuestro proyecto es desarrollar “**LazyTrip**”, una aplicación multiplataforma la cual, estará disponible tanto para dispositivos móviles como para versión de escritorio. Esta aplicación está pensada para ayudar a cualquier persona que vaya a realizar un viaje a sacarle el máximo partido, optimizando al máximo tanto su dinero como su tiempo.
 
