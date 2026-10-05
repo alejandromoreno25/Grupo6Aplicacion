@@ -13,9 +13,9 @@
 
 ## PORTADA Y DECLARACIÓN DE AUTORÍA
 * **Autor / Scrum Master:** Alejandro Moreno Luna  
-* **Especialista UI/UX (Frontend):** 
+* **Especialista UI/UX (Frontend):** Víctor Pérez Martínez y Lucas Moreno
 * **Desarrollador de Lógica (Backend):** Joaquin Torrubia Oria y Antonio Muñoz
-* **QA Tester & Release Manager:** Víctor Pérez Martínez
+* **QA Tester & Release Manager:** todos
 
 **Centro:** FP Superior Campus Cámara Comercio Sevilla
   
@@ -25,6 +25,7 @@
 Planificación de viajes, Aplicación Multiplataforma, Itinerarios Automáticos, Optimización de Presupuesto, Desarrollo de Interfaces, MVC, Scrum, DAM.
 
 ## 1. INTRODUCCIÓN
+---
 ### 1.1 Idea general del proyecto:
 La idea principal de nuestro proyecto es desarrollar “**LazyTrip**”, una aplicación multiplataforma la cual, estará disponible tanto para dispositivos móviles como para versión de escritorio. Esta aplicación está pensada para ayudar a cualquier persona que vaya a realizar un viaje a sacarle el máximo partido, optimizando al máximo tanto su dinero como su tiempo.
 
@@ -33,6 +34,7 @@ El funcionamiento principal se basa en que el usuario introduce el destino, las 
 Además contará con una galería en la que el usuario podrá subir fotos de cada día de su viaje a modo de itinerario y así guardar recuerdo de su viaje.
 
 ### 1.2 Contexto y definición del problema:
+---
 Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología Lean Startup y su fase de Customer Discovery que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
 
 Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que nos han permitido identificar el problema principal.
@@ -64,7 +66,7 @@ El problema que queremos resolver con LazyTrip es precisamente ese, demostrar qu
 [Ver Resultados de la Encuesta de Viajes (Google Forms)](https://docs.google.com/forms/d/1md7psvZ9x08voK7zRiic7U_xJHFKZ1plC8UFBwDeojA/viewanalytics)
 
 ### 1.3 Delimitación del proyecto
-
+---
 Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de la aplicación tratará los siguientes límites:
 
 * **Plataformas:** Desarrollo de una versión funcional para web/escritorio y una interfaz adaptada a dispositivos móviles.
@@ -75,6 +77,7 @@ Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de l
 * **Seguridad:** Posibilidad de Iniciar Sesión o Registrarse con sus datos personales para guardar sus viajes o progresos.
 
 ### 1.4 Objetivos
+---
 Para nuestra aplicación hemos planteado los siguientes objetivos:
 #### 1.4.1 Objetivo principal
 Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itinerarios de viaje diarios personalizados y seleccione alojamientos económicos según el presupuesto del usuario, mediante una interfaz intuitiva que optimice su tiempo y recursos económicos.
@@ -87,9 +90,10 @@ Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itiner
 4. **Garantizar la multiplataforma del sistema** mediante una arquitectura responsive (web y móvil) conectada a una base de datos centralizada.
 
 ### 1.5 BenchMarking y Análisis de Empresas.
+---
 
 ### 1.6 Estructura de la memoria
-
+---
 Este documento organiza la documentación del proyecto siguiendo los requisitos exigidos para el proyecto intermodular y el Sprint 1:
 
 * **1. Introducción:** Presentación de la idea general del proyecto LazyTrip, contexto y justificación del problema mediante datos de encuestas reales, delimitación del alcance, objetivos generales/específicos,  y esta misma estructura.
