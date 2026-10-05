@@ -3,13 +3,13 @@
 </p>
 
 # Memoria de Proyecto Intermodular: Sprint 1 - Ideación y Prototipado Base
-**Meta del Sprint** Diseñar y construir la arquitectura gráfica inicial de la aplicación, interactuando con herramientas visuales de diseño e identificar los problemas y objetivos de la aplicación.
+**Meta del Sprint** Desarrollar la introducción de nuestra aplicación LazyTrip.
 
 **Proyecto:** Creación de una Aplicación de nombre LazyTrip cuya función es la de organizar y planificar viajes.
 
-**Módulo:** Desarrollo de Interfaces (0488) / Proyecto Intermodular  
+**Módulo:**  Proyecto Intermodular  
 **Curso:** 2º DAM - 2026/2027  
-**Fecha de Entrega:** 02/10/2026
+**Fecha de Entrega:** 09/10/2026
 
 ## PORTADA Y DECLARACIÓN DE AUTORÍA
 * **Autor / Scrum Master:** Alejandro Moreno Luna  
@@ -20,9 +20,6 @@
 **Centro:** FP Superior Campus Cámara Comercio Sevilla
   
 **Declaración de Autoría:** Confirmamos que este trabajo es original y ha sido desarrollado por el equipo siguiendo nosotros siguiendo la metodología Scrum.
-
-**Palabras Clave:**
-Planificación de viajes, Aplicación Multiplataforma, Itinerarios Automáticos, Optimización de Presupuesto, Desarrollo de Interfaces, MVC, Scrum, DAM.
 
 ## 1. INTRODUCCIÓN
 ### 1.1 Idea general del proyecto:
