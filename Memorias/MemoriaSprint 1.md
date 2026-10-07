@@ -22,20 +22,17 @@
 **Declaración de Autoría:** Confirmamos que este trabajo es original y ha sido desarrollado por el equipo siguiendo nosotros siguiendo la metodología Scrum.
 
 ## 1. INTRODUCCIÓN
-### 1.1 Idea general del proyecto:
-La idea principal de nuestro proyecto es desarrollar “**LazyTrip**”, una aplicación multiplataforma la cual, estará disponible tanto para dispositivos móviles como para versión de escritorio. Esta aplicación está pensada para ayudar a cualquier persona que vaya a realizar un viaje a sacarle el máximo partido, optimizando al máximo tanto su dinero como su tiempo.
+### 1.1 Contexto del proyecto:
+En la actualidad, el turismo se ha consolidado como una de las actividades de ocio más demandadas a nivel global. Sin embargo, existe un pensamiento generalizado en la sociedad que defiende que esto es solo para personas con un alto presupuesto y poder adquisitivo. Esta opinión se debe principalmente al gran aumento de precio que han sufrido las formas tradicionales de organizar viajes como son las agencias.
+ Como respuesta directa a estas necesidades nace nuestra aplicación LazyTrip. Una solución multiplataforma disponible tanto en Escritorio como en  dispositivos móviles. La aplicación está diseñada para maximizar el rendimiento del presupuesto y del tiempo del turista a partir de tres variables fundamentales introducidas por el usuario: el destino, las fechas y el presupuesto máximo por persona.
+A partir de eso, el sistema te propone una selección de alojamientos acorde al presupuesto ajustado y posibilidad de organizar un itinerario guiado de manera casi automática. Además, se está planteando la posibilidad de un álbum personalizado en el que el usuario pueda introducir fotos en un álbum de cada día de viaje.
 
-El funcionamiento principal se basa en que el usuario introduce el destino, las fechas de su viaje y el presupuesto máximo por persona disponible. A partir de esos datos, la aplicación le muestra distintas opciones de alojamiento adaptadas a su límite económico y genera automáticamente itinerarios diarios organizados según las prioridades que tenga cada turista y usuario de **LazyTrip**
 
-Además contará con una galería en la que el usuario podrá subir fotos de cada día de su viaje a modo de itinerario y así guardar recuerdo de su viaje.
-
-### 1.2 Contexto, definición del problema y Propuesta de Solución:
+### 1.2Problema, necesidad detectada y Propuesta de Solución:
 ---
-Para dar contexto al problema que queremos resolver y a su definición, debemos delimitar la zona en la que hemos realizado nuestro estudio. Siguiendo la metodología **Lean Startup y su fase de Customer Discovery** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
+Como hemos mencionado anteriormente, existe la idea generalizada de viajar está reservado solo para gente con un alto poder adquisitivo y que por ese problema hoy en día las personas no viajan tanto como antes. Para comprobar si este problema era real, aplicamos la fase de Customer Discovery de la metodología **Lean Startup** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
 
-Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que nos han permitido identificar el problema principal.
-
-Tras analizar los resultados obtenidos tenemos la sensación de que viajar es algo reservado solo para gente con un poder adquisitivo alto, o que hace falta tener muchísimos ahorros para hacer una escapada incluso a un país vecino. Esto ocurre en gran medida porque acudir a agencias de viajes o agentes privados incrementa considerablemente los costes finales.
+Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que hemos resumido a continuación:
 ㅤㅤㅤㅤㅤ
 ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
 
@@ -56,8 +53,8 @@ Aunque se pueda hacer forma invidual, se necesita dedicar muchas horas a estar c
 La siguiente pregunta nos plantea: ¿ Echas en falta una herramienta que arme un itinerario diario automatico ajustado a tu dinero ?.
 En esta pregunta los resultados lo volvieron a dejar mas claro. Los datos lo dejan claro, como podemos ver el 84,4 % de los encuestados echa en falta un itinerario automático en apps como Booking o TripAdvisor un 56,3 % afirma que le ahorraría muchísimo tiempo y un 28,1 % lo usaría según el destino. Solo un 15,6 % prefiere hacerlo a mano, lo que confirma que LazyTrip responde a una necesidad real del mercado. Hoy en día, vivimos en una sociedad muy ocupada y llena de trabajo o preocupaciones por lo que ahorraría mucho tiempo en organización de viajes. Lo que busca LazyTrip es hacerte los viajes mas comodos, y que se ajusten a ti.
 
-Por ello a modo de conclusión queremos decir que:
 
+Por ello a modo de conclusión queremos decir que:
 El problema que queremos resolver con LazyTrip es precisamente ese, demostrar que viajar no tiene por qué ser tan caro si se gestiona de forma inteligente, evitando los costes extra de intermediarios y ahorrando al usuario todo el tiempo que conlleva organizar un viaje paso a paso.
 
 [Ver Resultados de la Encuesta de Viajes (Google Forms)](https://docs.google.com/forms/d/1md7psvZ9x08voK7zRiic7U_xJHFKZ1plC8UFBwDeojA/viewanalytics)
