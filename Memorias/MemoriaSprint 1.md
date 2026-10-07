@@ -84,17 +84,18 @@ Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de l
 ### 1.4 Objetivos
 Nuestra aplicación, principalmente destinada al sector turístico, tiene como idea principal facilitar la tarea a los usuarios de cara a la creación de itinerarios personalizados ajustados por presupuesto, número de persona, plan de ocio y localización. Nuestra intención con esto es solucionar problemas y ahorrar la mayor cantidad de tiempo posible de nuestros futuros usuarios. Para ello, hemos establecido los siguientes objetivos: 
 
-#### 1.4.1 Objetivo principal
+#### 1.4.1 Objetivo general
 Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itinerarios de viaje diarios personalizados y seleccione alojamientos económicos según el presupuesto del usuario, mediante una interfaz intuitiva que optimice su tiempo y recursos económicos. Otros criterios serán la localización y el ritmo de viaje que desee el usuario.
 
 #### 1.4.2 Objetivos específicos 
 
-1. **Diseñar e implementar un módulo de gestión de usuarios y viajes** Diseño de aplicación que permita crear cuentas, guardar preferencias de viaje y registrar destinos con fechas y presupuestos delimitados.
-2. **Desarrollar un sistema de recomendación de alojamientos e itinerarios** Sistema automatizado que filtre y organice lugares de interés y sitios de comida según el gasto diario fijado por el usuario y cómo este desee gestionar su tiempo y ritmo de actividades.
-3. **Construir un módulo de diario de viaje multimedia** Apartado personal donde el usuario pueda subir y clasificar fotografías organizadas por cada día de su itinerario.
-4. **Garantizar la multiplataforma del sistema** Acceso desde diferentes dispositivos mediante una arquitectura responsive (web y móvil) conectada a una base de datos centralizada.
-5. **Buscar opciones accesibles para todos** Según el estudio que hemos llevado a cabo sobre otras aplicaciones, en muchas de ellas no existen opciones de alojamientos accesibles para personas con discapacidad, por lo que es una de las funcionalidades que añadiremos en nuestra app.
-6. **Ofrecer una solución intuitiva para todas las edades** Siendo conscientes de que esta aplicación podría ser utilizada por todos los espectros de edad, nuestra interfaz debería resultar intuitiva y fácil de usar para todos los usuarios, para evitar con ello la brecha digital. 
+1. **Diseñar un prototipo para el módulo de gestión de usuarios y viajes.**
+2. **Desarrollar un sistema de recomendación de alojamientos e itinerarios.**
+3. **Construir un módulo de diario de viaje multimedia con funcionalidades de subida multimedia.**
+4. **Garantizar la multiplataforma del sistema aplicando tecnologías diferentes.**
+5. **Implementar herramientas de filtrado según el presupuesto, la duración del viaje, el destino y las actividades deseadas.**
+6. **Buscar opciones accesibles de alojamiento para personas con discapacidad.**
+7. **Ofrecer una solución intuitiva para todas las edades, utilizando interfaces simples e intuitivas.**
 ---
 
 ### 1.5 BenchMarking y Análisis de Empresas.
