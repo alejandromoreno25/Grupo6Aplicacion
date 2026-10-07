@@ -63,7 +63,7 @@ El problema que queremos resolver con LazyTrip es precisamente ese, demostrar qu
 [Ver Resultados de la Encuesta de Viajes (Google Forms)](https://docs.google.com/forms/d/1md7psvZ9x08voK7zRiic7U_xJHFKZ1plC8UFBwDeojA/viewanalytics)
 
 #### 1.2.1 Propuesta De Solución:
----
+
 tras analizar los datos de la encuesta, contextualizar el problema y exponerlo, aquí os explicamos la solución mas fiable de esos problemas.
 Como bien hemos dicho, la solución mas fiable seria la de LazyTrip. Crear una aplicación que permite organizar viajes para presupuestos ajustados, puede hacer que muchas personas que sufren por diferentes
 motivos los resultados de esa encuesta tengan la oportunidad de viajar que nunca han tenido.
@@ -112,6 +112,7 @@ Diferencias con LazyTrip
 -**LazyTrip:** está enfocada principalmente en jóvenes y viajeros con presupuesto limitado.
 
 ### 1.5.1**Organización**
+
 Tripadvisor cuenta con departamentos de:
 
 -Desarrollo y tecnología.
@@ -130,11 +131,11 @@ Tripadvisor cuenta con departamentos de:
 **Airbnb**
 
 #### 1.5.3 **Pros:**
----
+
 Ofrece una extensa oferta global de alojamientos particulares, apartamentos vacacionales y opciones únicas. Facilita la comunicación directa con los anfitriones y cuenta con un sistema de valoraciones reales. Incluye la opción de contratar experiencias turísticas organizadas por residentes locales.
 
 #### 1.5.4 **Contras:**
----
+
 Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que encarecen el precio final. Carece por completo de herramientas para la planificación y estructura de itinerarios diarios. La calidad del servicio resulta variable al no contar con la estandarización propia del sector hotelero.
 
 #### 1.5.5 **Limitaciones:**
