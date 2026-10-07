@@ -30,7 +30,7 @@ En la actualidad, el turismo se ha consolidado como una de las actividades de oc
 A partir de eso, el sistema te propone una selección de alojamientos acorde al presupuesto ajustado y posibilidad de organizar un itinerario guiado de manera casi automática. Además, se está planteando la posibilidad de un álbum personalizado en el que el usuario pueda introducir fotos en un álbum de cada día de viaje.
 
 
-### 1.2Problema, necesidad detectada y Propuesta de Solución:
+### 1.2 Problema, necesidad detectada y Propuesta de Solución:
 ---
 Como hemos mencionado anteriormente, existe la idea generalizada de viajar está reservado solo para gente con un alto poder adquisitivo y que por ese problema hoy en día las personas no viajan tanto como antes. Para comprobar si este problema era real, aplicamos la fase de Customer Discovery de la metodología **Lean Startup** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
 
@@ -98,7 +98,6 @@ Desarrollar una aplicación multiplataforma llamada LazyTrip que organice itiner
 ---
 
 ### 1.5 BenchMarking y Análisis de Empresas.
----
 Hablaremos sobre la diferencia que hay entre Tripadvisor y Airbnb respecto a nuestro proyecto LazyTrip
 
 **Tripadvisor**
@@ -110,7 +109,7 @@ Diferencias con LazyTrip
 -**LazyTrip**: automatiza la planificación según presupuesto, fechas y preferencias.
 -**LazyTrip:** está enfocada principalmente en jóvenes y viajeros con presupuesto limitado.
 
-### 1.5.1**Organización**
+#### 1.5.1**Organización**
 
 Tripadvisor cuenta con departamentos de:
 
@@ -121,7 +120,7 @@ Tripadvisor cuenta con departamentos de:
 -Gestión de contenido y opiniones.
 -Datos e inteligencia artificial.
 
-### 1.5.2**Limitaciones y mejoras**
+#### 1.5.2**Limitaciones y mejoras**
 -**Mucha información** : LazyTrip mostrará opciones más personalizadas.
 -**Planificación manual** : LazyTrip generará itinerarios automáticamente.
 -**Falta de conexión** : permitir consultar el viaje sin Internet.
@@ -140,7 +139,7 @@ Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que en
 #### 1.5.5 **Limitaciones:**
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 
-### 1.5.6 **Tabla Comparativa**
+#### 1.5.6 **Tabla Comparativa**
 | Plataforma | Itinerarios automáticos | Ajuste a presupuesto | Alojamiento económico | Diario multimedia | Ahorro de tiempo |
 |---|---|---|---|---|---|
 | **LazyTrip** | Sí, según presupuesto e intereses | Sí, límite global por persona | Sí, mediante algoritmo de selección | Sí, fotos organizadas por día | Alto, automatizado |
