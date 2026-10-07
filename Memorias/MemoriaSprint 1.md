@@ -24,6 +24,8 @@
 ## 1. INTRODUCCIÓN
 ### 1.1 Contexto del proyecto:
 En la actualidad, el turismo se ha consolidado como una de las actividades de ocio más demandadas a nivel global. Sin embargo, existe un pensamiento generalizado en la sociedad que defiende que esto es solo para personas con un alto presupuesto y poder adquisitivo. Esta opinión se debe principalmente al gran aumento de precio que han sufrido las formas tradicionales de organizar viajes como son las agencias.
+
+
  Como respuesta directa a estas necesidades nace nuestra aplicación LazyTrip. Una solución multiplataforma disponible tanto en Escritorio como en  dispositivos móviles. La aplicación está diseñada para maximizar el rendimiento del presupuesto y del tiempo del turista a partir de tres variables fundamentales introducidas por el usuario: el destino, las fechas y el presupuesto máximo por persona.
 A partir de eso, el sistema te propone una selección de alojamientos acorde al presupuesto ajustado y posibilidad de organizar un itinerario guiado de manera casi automática. Además, se está planteando la posibilidad de un álbum personalizado en el que el usuario pueda introducir fotos en un álbum de cada día de viaje.
 
