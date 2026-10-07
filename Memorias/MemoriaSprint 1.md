@@ -116,22 +116,23 @@ Tripadvisor cuenta con departamentos de:
 -Gestión de contenido y opiniones.
 -Datos e inteligencia artificial.
 
-**#### 1.5.2 AirBnb: Análisis y diferencias con LazyTrip**
+#### 1.5.2 AirBnb: Análisis y diferencias con LazyTrip**
 Ofrece una extensa oferta global de alojamientos particulares, apartamentos vacacionales y opciones únicas. Facilita la comunicación directa con los anfitriones y cuenta con un sistema de valoraciones reales. Incluye la opción de contratar experiencias turísticas organizadas por residentes locales.
 
 Aplica comisiones de servicio, gastos de limpieza e impuestos adicionales que encarecen el precio final. Carece por completo de herramientas para la planificación y estructura de itinerarios diarios. La calidad del servicio resulta variable al no contar con la estandarización propia del sector hotelero.
 
-#### 1.5.5 **Limitaciones:**
+
 Se enfoca en el alquiler de hospedaje y actividades aisladas, sin calcular un presupuesto global ni ofrecer una ruta diaria para el usuario.
 Mientras que Airbnb se limita a la gestión del hospedaje, LazyTrip funciona como un gestor integral. La aplicación combina la selección de alojamientos adaptados al tope económico con la creación de itinerarios cuya función no está disponible en airBNB
 
-**#### 1.5.3 GoogleTrips: Análisis y diferencias con LazyTrip**
+#### 1.5.3 GoogleTrips: Análisis y diferencias con LazyTrip**
 
 Es la plataforma web de planificación de viajes desarrollada por Google,Integra la búsqueda de vuelos,hoteles y reservas sincronizadas automáticamente mediante el correo electrónico
 
 Ofrece una integración transparente y automática con el ecosistema de Google, agregando reservas de billetes y hoteles sin esfuerzo manual. Sin embargo, A pesar de centralizar datos de transporte y alojamiento, no ofrece un creador de itinerarios diarios que organice las actividades optimizando el tiempo disponible. Tampoco permite establecer un presupuesto estricto por persona como filtro para diseñar la ruta
 
-#### 1.5.6 **Tabla Comparativa**
+
+#### 1.5.4 **Tabla Comparativa**
 | Plataforma | Itinerarios semiautomaticos guiados a presupuesto | Ajuste a presupuesto | Alojamiento económico | Diario multimedia | Ahorro de tiempo |
 |---|---|---|---|---|---|
 | **LazyTrip** | Sí, según presupuesto e intereses | Sí, límite global por persona | Sí, mediante algoritmo de selección | Sí, fotos organizadas por día | Alto, automatizado |
