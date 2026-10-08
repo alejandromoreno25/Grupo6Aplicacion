@@ -23,16 +23,16 @@
 
 ## 1. INTRODUCCIÓN
 ### 1.1 Contexto del proyecto:
-En la actualidad, el turismo se ha consolidado como una de las actividades de ocio más demandadas a nivel global. Sin embargo, existe un pensamiento generalizado en la sociedad que defiende que esto es solo para personas con un alto presupuesto y poder adquisitivo. Esta opinión se debe principalmente al gran aumento de precio que han sufrido las formas tradicionales de organizar viajes como son las agencias.
+En la actualidad, el turismo se ha consolidado como una de las actividades de ocio más demandadas a nivel global. Sin embargo, existe un pensamiento generalizado en la sociedad que defiende que esto es solo para personas con un alto presupuesto y poder adquisitivo. Esta opinión se debe principalmente al gran aumento de precio que han sufrido las formas tradicionales de organizar viajes como son las agencias.[1][2]
 
 
  Como respuesta directa a estas necesidades nace nuestra aplicación LazyTrip. Una solución multiplataforma disponible tanto en Escritorio como en  dispositivos móviles. La aplicación está diseñada para maximizar el rendimiento del presupuesto y del tiempo del turista a partir de tres variables fundamentales introducidas por el usuario: el destino, las fechas y el presupuesto máximo por persona.
-A partir de eso, el sistema te propone una selección de alojamientos acorde al presupuesto ajustado y posibilidad de organizar un itinerario guiado de manera casi automática. Además, se está planteando la posibilidad de un álbum personalizado en el que el usuario pueda introducir fotos en un álbum de cada día de viaje.
+A partir de eso, el sistema te propone una selección de alojamientos acorde al presupuesto ajustado y posibilidad de organizar un itinerario guiado de manera casi automática. Además, se está planteando la posibilidad de un álbum personalizado en el que el usuario pueda introducir fotos en un álbum de cada día de viaje.[3][4]
 
 
 ### 1.2 Problema, necesidad detectada y Propuesta de Solución:
 ---
-Como hemos mencionado anteriormente, existe la idea generalizada de viajar está reservado solo para gente con un alto poder adquisitivo y que por ese problema hoy en día las personas no viajan tanto como antes. Para comprobar si este problema era real, aplicamos la fase de Customer Discovery de la metodología **Lean Startup** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.
+Como hemos mencionado anteriormente, existe la idea generalizada de viajar está reservado solo para gente con un alto poder adquisitivo y que por ese problema hoy en día las personas no viajan tanto como antes. Para comprobar si este problema era real, aplicamos la fase de Customer Discovery de la metodología **Lean Startup** que nos dice que para validar una idea de aplicación primero hay que salir a hacer encuestas y entrevistas para ver si la gente realmente tiene ese problema o echa en falta la solución.[2][5]
 
 Nos hemos limitado a Sevilla capital para las entrevistas y preguntas presenciales. Sin embargo, tras realizar encuestas de manera online y transcribir las respuestas obtenidas en persona, hemos recogido más de **30 respuestas y testimonios** que hemos resumido a continuación:
 ㅤㅤㅤㅤㅤ
@@ -66,7 +66,7 @@ El problema que queremos resolver con LazyTrip es precisamente ese, demostrar qu
 tras analizar los datos de la encuesta, contextualizar el problema y exponerlo, aquí os explicamos la solución mas fiable de esos problemas.
 Como bien hemos dicho, la solución mas fiable seria la de LazyTrip. Crear una aplicación que permite organizar viajes para presupuestos ajustados, puede hacer que muchas personas que sufren por diferentes
 motivos los resultados de esa encuesta tengan la oportunidad de viajar que nunca han tenido.
-Por ello, proponemos la implementación de lazytrip que reserva alojamientos con presupuestos ajustados, gestiona itinerarios de viaje acorde a tus necesidades, crea álbumes de fotos para hacer permanente los recuerdos de tu viaje y ofrece la posibilidad de cambiar actividades del itinerario según valoración o preferencia.
+Por ello, proponemos la implementación de lazytrip que reserva alojamientos con presupuestos ajustados, gestionar tus itinerarios de viaje acorde a las necesidades, crea álbumes de fotos para hacer permanente los recuerdos de tu viaje y ofrece la posibilidad de cambiar actividades del itinerario según valoración o preferencia.
 
 ### 1.3 Alcance y Delimitación del proyecto
 ---
@@ -150,3 +150,10 @@ Este documento organiza la documentación del proyecto siguiendo los requisitos 
 * **3. Descripción del Alcance Técnico:** Justificación de la arquitectura, **MVC (Modelo-Vista-Controlador)**,librerías, análisis de componentes utilizados, descripción de clases, propiedades y métodos principales.
 * **4. Prototipo e Interfaz de la Aplicación:** Presentación y enlace al **Prototipo Interactivo fiable** desarrollado en herramientas como Figma/Canva que simula el funcionamiento de la app y descripción de la maquetación ejecutable 
 * **5. Entregables y Conclusiones:** URL del repositorio GitHub, enlace al prototipo navegable ejecutable y  presentación del sprint en 10 minutos.
+
+## Referencias 
+- [1] J. Gómez y M. R. Pérez, *Metodologías ágiles en el desarrollo de software de consumo*, Madrid: Ediciones Técnicas, 2023.
+- [2] Instituto Nacional de Estadística (INE), "Encuesta de Gasto Turístico (EGATUR). Datos provisionales de agosto de 2026," Nota de prensa oficial, oct. 2026. [En línea]. Disponible en: https://www.ine.es/dyngs/Prensa/EGATUR0826.htm
+- [3] Instituto Nacional de Estadística (INE), "Encuesta de Turismo de Residentes (ETR/FAMILITUR). Segundo trimestre 2026," Nota de prensa oficial, sep. 2026. [En línea]. Disponible en: https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176990&menu=ultiDatos&idp=1254735576863
+- [4] UALM Digital, "La planificación digital simplifica los viajes y ahorra recursos," *Boletín de Tendencias en Turismo Digital*, 2024. [En línea]. Disponible en: https://www.ualm.es/la-planificacion-digital-simplifica-los-viajes-y-ahorra-recursos/
+- [5] BBVA Innovation, "¿Qué es el método Lean Startup y por qué es efectivo?," *BBVA Innovación*, 2024. [En línea]. Disponible en: https://www.bbva.com/es/innovacion/que-es-el-metodo-lean-startup-y-por-que-es-efectivo/
