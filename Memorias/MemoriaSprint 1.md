@@ -145,11 +145,11 @@ Ofrece una integración transparente y automática con el ecosistema de Google, 
 ---
 Este documento organiza la documentación del proyecto siguiendo los requisitos exigidos para el proyecto intermodular y el Sprint 1:
 
-* **1. Introducción:** Presentación de la idea general del proyecto LazyTrip, contexto y justificación del problema mediante datos de encuestas reales, delimitación del alcance, objetivos generales/específicos,  y esta misma estructura.
-* **2. Descripción del Proyecto:** Identificación detallada del público objetivo, análisis comparativo de la competencia (*Benchmarking* frente a Booking, TripAdvisor y Wanderlog), y organización del trabajo mediante el *Product Backlog* general y el *Sprint Backlog* asignado para este primer hito.
-* **3. Descripción del Alcance Técnico:** Justificación de la arquitectura, **MVC (Modelo-Vista-Controlador)**,librerías, análisis de componentes utilizados, descripción de clases, propiedades y métodos principales.
-* **4. Prototipo e Interfaz de la Aplicación:** Presentación y enlace al **Prototipo Interactivo fiable** desarrollado en herramientas como Figma/Canva que simula el funcionamiento de la app y descripción de la maquetación ejecutable 
-* **5. Entregables y Conclusiones:** URL del repositorio GitHub, enlace al prototipo navegable ejecutable y  presentación del sprint en 10 minutos.
+* **1. Introducción:** Explicaremos el contexto del proyecto, el porque decidimos crear esta app.
+* **2. Descripción del Proyecto:** Donde describiremos las necesidades y problemas los cuales resolveremos mediante una propuesta de solución.
+* **3. Descripción del Alcance Técnico:** Justificando las delimitaciones de nuestro proyecto como por ejemplo la descarga únicamente en España
+* **4. Objetivos:** En esta parte del proyecto veremos los objetivos a cumplir tanto generales como especificos.
+* **5. Análisis de empresas:** Donde evaluaremos las oportunidades de mercado de nuestro proyecto. 
 
 ## Referencias 
 - [1] J. Gómez y M. R. Pérez, *Metodologías ágiles en el desarrollo de software de consumo*, Madrid: Ediciones Técnicas, 2023.
