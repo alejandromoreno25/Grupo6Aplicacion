@@ -68,9 +68,9 @@ Como bien hemos dicho, la solución mas fiable seria la de LazyTrip. Crear una a
 motivos los resultados de esa encuesta tengan la oportunidad de viajar que nunca han tenido.
 Por ello, proponemos la implementación de lazytrip que reserva alojamientos con presupuestos ajustados, gestiona itinerarios de viaje acorde a tus necesidades, crea álbumes de fotos para hacer permanente los recuerdos de tu viaje y ofrece la posibilidad de cambiar actividades del itinerario según valoración o preferencia.
 
-### 1.3 Delimitación del proyecto
+### 1.3 Alcance y Delimitación del proyecto
 ---
-Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de la aplicación tratará los siguientes límites:
+Para asegurar la viabilidad del desarrollo dentro de los plazos, el alcance de la aplicación tratará los siguientes límites comenzando con que La aplicación se podrá descargar solamente en España, y desde aquí se podrán organizar viajes a otros países.
 
 * **Plataformas:** Desarrollo de una versión funcional para web/escritorio y una interfaz adaptada a dispositivos móviles.
 * **Gestión de viajes:** Registro y autenticación de usuarios, creación de viajes introduciendo destino, fechas y presupuesto por persona.
