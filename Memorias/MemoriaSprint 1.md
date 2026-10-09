@@ -26,7 +26,7 @@
 | Nombre del Integrante | Nota Final (%) |
 | :--- | :---: |
 | Alejandro Moreno Luna | 100% |
-| Antonio Muñoz Herrera | -|
+| Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | -|
 | Víctor Pérez Martínez | - |
 | Integrante 5 | — |
