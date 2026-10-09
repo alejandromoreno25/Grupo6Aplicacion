@@ -21,6 +21,16 @@
   
 **Declaración de Autoría:** Confirmamos que este trabajo es original y ha sido desarrollado por el equipo siguiendo nosotros siguiendo la metodología Scrum.
 
+## Cooevaluación
+# Cooevaluación
+| Nombre del Integrante | Nota Final (%) |
+| :--- | :---: |
+| Alejandro Moreno Luna | 100% |
+| Antonio Muñoz Herrera | -|
+| Joaquin Torrubia Oria | -|
+| Víctor Pérez Martínez | - |
+| Integrante 5 | — |
+
 ## 1. INTRODUCCIÓN
 ### 1.1 Contexto del proyecto:
 En la actualidad, el turismo se ha consolidado como una de las actividades de ocio más demandadas a nivel global. Sin embargo, existe un pensamiento generalizado en la sociedad que defiende que esto es solo para personas con un alto presupuesto y poder adquisitivo. Esta opinión se debe principalmente al gran aumento de precio que han sufrido las formas tradicionales de organizar viajes como son las agencias.[1][2]
