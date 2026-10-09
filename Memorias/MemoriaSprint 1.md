@@ -143,13 +143,52 @@ Ofrece una integración transparente y automática con el ecosistema de Google, 
 
 ### 1.6 Estructura de la memoria
 ---
-Este documento organiza la documentación del proyecto siguiendo los requisitos exigidos para el proyecto intermodular y el Sprint 1:
+La memoria de nuestro proyecto está organizada por los siguientes puntos:
 
-* **1. Introducción:** Explicaremos el contexto del proyecto, el porque decidimos crear esta app.
-* **2. Descripción del Proyecto:** Donde describiremos las necesidades y problemas los cuales resolveremos mediante una propuesta de solución.
-* **3. Descripción del Alcance Técnico:** Justificando las delimitaciones de nuestro proyecto como por ejemplo la descarga únicamente en España
-* **4. Objetivos:** En esta parte del proyecto veremos los objetivos a cumplir tanto generales como especificos.
-* **5. Análisis de empresas:** Donde evaluaremos las oportunidades de mercado de nuestro proyecto. 
+ **-1ºIntroducción**
+	En este punto desarrollaremos el contedxto de nuestro proyecto, el problema o necesidad que
+	hemos detectado. nuestro objetivo general y especificos además de nuestras limitaciones.
+	
+**-2ºAnalisis del contexto**
+	En este punto analizaremos el perfil de los usuarios, el mercado y la competencia, 
+	además de evaluar la viabilidad técnica, económica y legal (RGPD y licencias) 
+	junto con los riesgos iniciales.
+
+ **-3ºPlanificación y gestión del proyecto.**
+	En este punto explicaremos la metodología de trabajo empleada, la organización del equipo, los roles, 
+	la estimación de costes y el cronograma fijado con sus correspondientes hitos.
+
+ **-4º Análisis de requisitos:**
+	En este punto detallaremos qué debe hacer el sistema especificando los requisitos funcionales, no funcionales, 
+	reglas de negocio, historias de usuario y su matriz de trazabilidad.
+
+ **-5º Diseño de la solución:**
+	En este punto definiremos la arquitectura del software, el diseño de la base de datos, 
+	la estructura de la interfaz de usuario (UX/UI) y las medidas de seguridad adoptadas.
+
+**-6º Desarrollo e implementación:**
+	En este punto describiremos el entorno de desarrollo, las tecnologías empleadas, 
+	la estructura del código, el control de versiones y cómo se programaron los módulos principales.
+
+ **-7º Pruebas y aseguramiento de la calidad:**
+	En este punto explicaremos las pruebas realizadas (unitarias, integración, seguridad y usabilidad) 
+	para garantizar la calidad del sistema y comprobar el cumplimiento de los requisitos.
+
+ **-8º Despliegue y puesta en producción:**
+	En este punto detallaremos la infraestructura utilizada, los pasos para publicar 
+	la aplicación en producción, la configuración de servidores, certificados de seguridad y copias de seguridad.
+
+ **-9º Manuales de uso:**
+	En este punto redactaremos la guía técnica de instalación, el manual de 
+	usuario paso a paso con capturas de pantalla y la documentación para administradores.
+
+ **-10º Resultados y evaluación final:**
+	En este punto evaluaremos el producto obtenido, el grado de cumplimiento de los objetivos 
+	y requisitos, las dificultades superadas y las desviaciones sobre la planificación original.
+
+ **-11º Conclusiones y líneas futuras:**
+	En este punto expondremos las conclusiones finales del proyecto, las posibles mejoras 
+	a implementar en el futuro, la escalabilidad del sistema y la reflexión personal del aprendizaje.
 
 ## Referencias 
 - [1] J. Gómez y M. R. Pérez, *Metodologías ágiles en el desarrollo de software de consumo*, Madrid: Ediciones Técnicas, 2023.
