@@ -29,7 +29,7 @@
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100%|
 | Víctor Pérez Martínez | - |
-| Integrante 5 | — |
+| Lucas Moreno Bravo | 80% |
 
 ## 1. INTRODUCCIÓN
 ### 1.1 Contexto del proyecto:
