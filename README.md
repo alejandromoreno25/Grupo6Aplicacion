@@ -10,7 +10,7 @@ estamos desarrollando una aplicación pensada para transformar la experiencia de
 **LazyTrip** es una plataforma diseñada para automatizar y simplificar la organización de viajes. Nuestra meta es ofrecer una herramienta intuitiva que permita a los usuarios generar itinerarios optimizados, 
 gestionar presupuestos y coordinarse fácilmente, haciendo que el proceso de planificación sea rápido, accesible y libre de estrés.
 
-##  ¿Organización Repositorio?
+##  Organización Repositorio
 Hemos realizado una carpeta Memorias con las memorias de cada sprint junto una carpeta assets que incluye documentos de apoyo a nuestro proyecto
 
 ## Nuestro Logo: 
