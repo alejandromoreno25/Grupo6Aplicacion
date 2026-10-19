@@ -10,5 +10,8 @@ estamos desarrollando una aplicación pensada para transformar la experiencia de
 **LazyTrip** es una plataforma diseñada para automatizar y simplificar la organización de viajes. Nuestra meta es ofrecer una herramienta intuitiva que permita a los usuarios generar itinerarios optimizados, 
 gestionar presupuestos y coordinarse fácilmente, haciendo que el proceso de planificación sea rápido, accesible y libre de estrés.
 
+##  ¿Organización Repositorio?
+Hemos realizado una carpeta Memorias con las memorias de cada sprint junto una carpeta assets que incluye documentos de apoyo a nuestro proyecto
+
 ## Nuestro Logo: 
 Nuestro logo transmite la esencia y filosofía de **LazyTrip**: el perezoso en la hamaca simboliza la calma y el descanso de dejar la planificación en nuestras manos para viajar sin estrés; la maleta representa la preparación rápida y sin complicaciones; y el avión junto a la brújula en el fondo refleja el espíritu de aventura, exploración y la capacidad de la plataforma para guiarte hacia cualquier destino del mundo.
