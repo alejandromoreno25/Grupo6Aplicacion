@@ -1,3 +1,25 @@
+**2. Análisis de la necesidad**
+
+**2.1 ¿Qué deben hacer y aportar? Diagnóstico de la situación de partida (As-Is)**
+
+Actualmente organizar un viaje requiere utilizar diferentes webs y aplicaciones, ya que no existe una única herramienta que permita gestionar todo el proceso.
+
+Buscar vuelos: Lo primero que hay que hacer es buscar vuelos utilizando Google Flights, Skyscanner, Ryanair o Vueling. Se comparan diferentes días y horarios para encontrar la opción más económica. Una vez elegido el vuelo, se guarda el correo de confirmación o se descarga el billete en PDF.
+
+Buscar alojamiento: Después hay que buscar dónde dormir utilizando Booking, Airbnb o Google Maps. Se comparan precios, ubicaciones, opiniones y servicios para encontrar un alojamiento económico y bien situado. Finalmente, se guarda la confirmación de la reserva en el correo electrónico.
+
+Buscar actividades: Para saber qué hacer durante el viaje se utilizan aplicaciones como Tripadvisor, TikTok, Instagram o GetYourGuide. Se buscan lugares turísticos, restaurantes y actividades, consultando sus precios, opiniones y horarios.
+
+Organizar el itinerario: Una vez elegidas las actividades, se distribuyen entre los diferentes días utilizando Google Maps para calcular distancias y Google Calendar o las notas del móvil para organizar horarios y visitas.
+
+Controlar el presupuesto: Para controlar los gastos se suele utilizar Excel o Google Sheets, apuntando el coste de los vuelos, alojamiento, transporte, comidas y actividades. Si se viaja con amigos, también se pueden utilizar aplicaciones como Splitwise para repartir los gastos.
+
+Guardar la información: Finalmente, toda la información queda repartida entre diferentes aplicaciones: los billetes en el correo, las reservas en Booking, las ubicaciones en Google Maps y el itinerario en notas o calendarios. También se suelen compartir los datos mediante grupos de WhatsApp.
+
+Problemas encontrados: Durante todo este proceso aparecen varias dificultades, como tener que consultar muchas aplicaciones diferentes, perder tiempo comparando precios, organizar horarios y desplazamientos, controlar los gastos y compartir toda la información con los demás viajeros. Además, si surge algún cambio, hay que actualizar manualmente diferentes partes del viaje.
+
+Por ello LazyTrip lo integra todo desde una misma aplicación en la cual puedes elegir el destino, la fecha, la duración y el coste que se haga más a tu bolsillo y la propia app se encarga de hacerte un itinerario además de una planificación de tu viaje todo esto sin salir de la app, quedandose todo registrado en una pestaña.
+
 
 *** 3.2 Análisis de Opciones Actuales y sus Limitaciones
 
