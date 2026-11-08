@@ -220,7 +220,45 @@ A través de la aplicación Pulse es posible:
 
 ---
 
-## 4. Partes interesadas (Stakeholders)
+## 4. ANÁLISIS DE STAKEHOLDERS Y DEPARTAMENTOS AFECTADOS
+
+### 4.1. Departamentos e Interesados Afectados
+
+#### Stakeholders Internos
+
+* **Equipo de desarrollo y producto:** Encargados del mantenimiento, arquitectura y evolución continua de la aplicación.
+* **Directivos y fundadores:** Responsables de tomar las decisiones de negocio, definir la visión y marcar los objetivos financieros.
+* **Equipo de marketing y ventas:** Encargados de la promoción, adquisición de usuarios y gestión de alianzas comerciales.
+* **Inversores y accionistas:** Quienes aportan el capital inicial o de crecimiento y buscan un retorno económico (ROI).
+
+#### Stakeholders Externos
+
+* **Viajeros y usuarios finales:** Quienes interactúan directamente con la plataforma y utilizan todas sus funciones.
+* **Proveedores de servicios turísticos:** Aerolíneas, hoteles, guías turísticos y demás empresas del sector.
+* **Socios tecnológicos y pasarela de pago:** Proveedores de servicios de integración técnica y cobro en línea.
+* **Reguladores y gobiernos:** Entidades que dictan las leyes de protección de datos, comercio electrónico y normativas fiscales.
+
+---
+
+### 4.2. Análisis de Poder e Influencia
+
+* **Poder Interno (Toma de decisiones):** El departamento interno ostenta el control ejecutivo final, ya que lleva la gestión de recursos, el control de presupuestos y la alineación estratégica.
+* **Poder Externo (Expectativas de mercado):** Los usuarios y proveedores externos condicionan la viabilidad real del producto. Sus opiniones y nivel de adopción determinan el éxito o fracaso de la aplicación; si el usuario no la utiliza, la gestión interna carece de impacto.
+
+---
+
+### 4.3. Matriz de Stakeholders y Estrategia de Gestión
+
+| Rol / Grupo | Tipo | Expectativas Principales | Nivel de Influencia | Estrategia de Comunicación |
+| :--- | :---: | :--- | :---: | :--- |
+| **Equipo de desarrollo y producto** | Interno | Requerimientos técnicos claros, plazos realistas y herramientas adecuadas. | Medio - Alto | **Gestionar de cerca:** Reuniones diarias (*dailies*) y metodologías ágiles. |
+| **Directivos y fundadores** | Interno | Rentabilidad, alineación con la visión del negocio y cumplimiento de plazos clave. | Máximo | **Dirigir de cerca:** Comités quincenales y reportes financieros. |
+| **Marketing y ventas** | Interno | Funcionalidades comerciales atractivas y fechas de lanzamiento claras para campañas. | Medio | **Mantener informado:** Reuniones mensuales de coordinación. |
+| **Inversores y accionistas** | Interno | Retorno de inversión, mitigación de riesgos y crecimiento de la plataforma. | Alto | **Satisfacer:** Reportes trimestrales ejecutivos y asambleas generales. |
+| **Viajeros y usuarios finales** | Externo | Plataforma intuitiva, seguridad en sus datos, facilidad de reserva y soporte eficaz. | Alto | **Mantener satisfechos:** Pruebas de usuario y encuestas de satisfacción. |
+| **Proveedores de servicios turísticos** | Externo | Estabilidad en la plataforma y claridad en los términos de contratación. | Medio | **Mantener informados:** Portales de servicios y comunicados trimestrales. |
+| **Socios tecnológicos y pasarela de pago** | Externo | Integración técnica fluida mediante APIs robustas y cumplimiento de protocolos de seguridad. | Medio - Alto | **Monitorear / Socio técnico:** Canal de conexión técnica directa. |
+| **Reguladores y gobiernos** | Externo | Cumplimiento estricto de normativas legales y protección de datos. | Alto | **Mantener satisfechos:** Auditorías periódicas y revisiones legales previas al lanzamiento. |
 
 ## 5. Estudio Viabilidad Técnica
 ## 5.1 En Qué Consiste la Viabilidad Técnica
