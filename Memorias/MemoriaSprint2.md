@@ -218,23 +218,6 @@ Por último, la app incluirá un filtro de accesibilidad para mostrar solo aloja
 
 ---
 
-**Referencias**
-
-[10] Jefatura del Estado, "Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios," *Boletín Oficial del Estado*, núm. 110, 9 may. 2023. [En línea]. Disponible en: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11022. [Accedido: 3 nov. 2026].
-
-[11] W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," *W3C Recommendation*, 5 oct. 2023. [En línea]. Disponible en: https://www.w3.org/TR/WCAG22/. [Accedido: 3 nov. 2026].
-
-[12] AENOR, *UNE-EN 301549:2019. Requisitos de accesibilidad para productos y servicios TIC*. Madrid, España: AENOR, 2019. [En línea]. Disponible en: https://www.defensa.gob.es/invied/va/Galerias/ficheros/general/ACC_Norma-UNE-EN-301549-2019-OAW.pdf. [Accedido: 4 nov. 2026].
-
-[13] Jefatura del Estado, "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico," *Boletín Oficial del Estado*, núm. 166, 12 jul. 2002. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758. [Accedido: 5 nov. 2026].
-
-
-
-
-
-
-
-REFERENCIAS:
 
 ### Referencias
 
