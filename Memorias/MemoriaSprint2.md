@@ -321,7 +321,88 @@ Sin ser expertos en estas herramientas, pero habiendo investigado sobre ellas he
 Tras analizar profundamente cada punto de la viabilidad técnica y planificar adecuadamente la curva de aprendizaje del equipo, se concluye que el proyecto **LazyTrip ES TÉCNICAMENTE VIABLE** [16], [17]. El ecosistema tecnológico seleccionado garantiza la interoperabilidad entre los clientes de escritorio y móvil, optimiza el consumo de datos mediante llamadas eficientes a las APIs de terceros y permite empaquetar, probar y desplegar la solución dentro de los plazos académicos establecidos [18], [19].
 
 ---
+## 7. Estudio de Viabilidad Legal y Normativa
 
+### 7.1 Marco Legal, Normativo y de Gobernanza
+
+El desarrollo de LazyTrip exige el cumplimiento riguroso del marco regulatorio sobre privacidad, comercio electrónico y estándares técnicos vigentes en España y la Unión Europea.
+
+#### Reglamento General de Protección de Datos (RGPD) [10]
+
+1. **Principio de Minimización de Datos (*Privacy by Design*):**
+   * **Recopilar solo lo imprescindible:** Al basar el modelo de negocio en la regla de los tres clics y la simplicidad, LazyTrip no debería solicitar información personal superflua (como números de teléfono, DNI o direcciones físicas) si no son necesarios para generar el itinerario.
+   * **Geolocalización justa:** Si la app utiliza el GPS para situar geográficamente al usuario en el mapa, debe solicitar acceso al GPS solo cuando la app esté en uso y explicar claramente por qué se requiere la ubicación en ese paso del itinerario.
+
+2. **Gestión del Consentimiento Expreso e Informado:**
+   * **Consentimiento previo:** El consentimiento para el tratamiento de datos debe recabarse mediante una acción afirmativa del usuario (un checkbox desmarcado por defecto o un botón de aceptación transparente).
+   * **Navegación sin cookies ni rastreadores ocultos:** Si se utilizan SDKs o herramientas de analítica (ej. Google Analytics, Firebase), el usuario debe poder aceptar o rechazar el rastreo no esencial desde el primer inicio de la app.
+   * **Sin casillas premarcadas:** Está prohibido por ley dar por sentado el consentimiento mediante casillas preseleccionadas.
+
+3. **Redirección a Terceros y Enlaces de Afiliados:**
+   Dado que el modelo de negocio de LazyTrip se fundamenta en redirigir al usuario hacia plataformas externas para completar reservas (como hoteles o actividades):
+   * **Límite de responsabilidad y transparencia:** Debe informarse claramente cuando el usuario abandona LazyTrip. No se deben transferir datos personales del usuario a esos terceros en la URL de afiliados ni en segundo plano sin su consentimiento.
+   * **Separación de responsabilidades:** En la Política de Privacidad se debe declarar que los datos introducidos en los sitios de destino se rigen por la política del tercero.
+
+4. **Deber de Información y Política de Privacidad Transparente:**
+   Siguiendo los principios de accesibilidad de LazyTrip (baja carga cognitiva y formas sencillas):
+   * **Redacción clara:** La política de privacidad no debe ser un texto legal incomprensible. Debe utilizar un lenguaje sencillo y accesible para cualquier edad, estructurado en capas o pestañas (al igual que la interfaz de la app).
+   * **Ubicación visible:** Debe estar accesible antes de instalar la app (en Google Play y App Store) y dentro de la app en la sección de ajustes o pie de página.
+   * **Contenido obligatorio:** Debe especificar quién es el responsable del tratamiento, para qué se usan los datos, cuál es la base legal (consentimiento o ejecución del servicio), el tiempo de conservación de los datos y cómo ejercer los derechos.
+
+5. **Garantía de los Derechos del Usuario (ARCO / ARSULIPO):**
+   La app debe proporcionar un mecanismo sencillo dentro de su interfaz o mediante un correo de contacto para que el usuario pueda ejercer sus derechos:
+   * **Acceso y Portabilidad:** Posibilidad de descargar los itinerarios o datos guardados.
+   * **Rectificación y Supresión ("Derecho al olvido"):** Capacidad para borrar su cuenta o eliminar las listas/itinerarios generados de forma inmediata.
+   * **Revocación del consentimiento:** Capacidad de retirar los permisos otorgados (ej. ubicación) en cualquier momento desde los ajustes.
+
+6. **Seguridad del Tratamiento y Análisis de Riesgos:**
+   * **Cifrado de datos:** Todo el tráfico entre la aplicación móvil y los servidores/APIs debe realizarse obligatoriamente sobre HTTPS/TLS con cifrado fuerte.
+   * **Registro de Actividades de Tratamiento (RAT):** La entidad desarrolladora de LazyTrip debe mantener un documento interno que registre qué datos se tratan, con qué finalidad y con qué medidas de seguridad.
+
+#### Ley Orgánica 3/2018 (LOPDGDD) [11]
+
+La Ley Orgánica 3/2018 (LOPDGDD) adapta el RGPD a la legislación española e introduce normas concretas sobre los derechos digitales. Para una aplicación como LazyTrip, enfocada en la simplicidad y la accesibilidad, los puntos clave que debemos considerar son los siguientes:
+
+1. **Información por Capas (Art. 11 LOPDGDD):** No basta con incluir un enlace a un texto legal largo. La ley exige mostrar primero una primera capa informativa (un resumen visual y breve al solicitar permisos o datos) que indique:
+   * Quién es el responsable de la app.
+   * Para qué se utilizarán los datos (ej. geolocalización para ubicar el itinerario).
+   * Cómo ejercer los derechos de privacidad.
+   * Enlace a la política completa (segunda capa).
+
+2. **Edad Mínima de Consentimiento (Art. 7 LOPDGDD):** En España, la edad mínima para otorgar consentimiento en servicios digitales sin autorización paterna se establece en los 14 años. Si la aplicación incluye registros o guarda perfiles de usuario, debe incorporar una casilla o verificación simple de edad que no complique la experiencia de usuario.
+
+3. **Ejercicio de Derechos (ARSULIPO):** La app debe incluir un canal accesible (formulario simple o correo directo) para permitir al usuario gestionar sus derechos ARSULIPO: Acceso, Rectificación, Supresión, Limitación del tratamiento, Portabilidad y Oposición.
+
+4. **Derechos Digitales: Olvido y Portabilidad (Arts. 92 y 94):**
+   * **Derecho al Olvido:** El usuario debe contar con una opción clara dentro de los ajustes para eliminar su perfil, búsquedas o itinerarios guardados de forma inmediata.
+   * **Portabilidad:** La app debe permitir al usuario exportar su itinerario generado en un formato estándar y reutilizable (como PDF o JSON).
+
+5. **Control Voluntario de Geolocalización:** El uso del GPS debe ser estrictamente voluntario y revocable en cualquier momento desde los ajustes de la interfaz. Si el usuario deniega el permiso de ubicación, la aplicación debe permitirle seguir construyendo itinerarios introduciendo la ciudad de forma manual.
+
+#### Ley de Servicios de la Sociedad de la Información (LSSI-CE) [12]
+
+La Ley 34/2002 de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE) regula en España las actividades económicas por internet, la información precontractual y el uso de almacenamiento de datos en dispositivos.
+
+Para LazyTrip, al ser una aplicación móvil que incluye enlaces a terceros para monetizar, los aspectos clave para cumplirla sin perder la usabilidad sencilla son los siguientes:
+
+1. **Deber de Información General (Art. 10 LSSI-CE):** La ley exige que los datos del prestador del servicio estén accesibles de forma permanente, fácil, directa y gratuita. En la sección de "Ajustes" o en el pie de página de la app o sitio web debe figurar:
+   * Nombre o denominación social del titular/empresa desarrolladora.
+   * NIF/CIF.
+   * Dirección de contacto física o domicilio social.
+   * Dirección de correo electrónico y datos de contacto directo.
+
+2. **Transparencia en el Modelo de Negocio (Enlaces de Afiliados):** Dado que LazyTrip no cobra al usuario ni realiza transacciones directas, pero redirige a plataformas externas (Booking, proveedores de actividades, etc.):
+   * Debe indicarse de forma clara e inequívoca al usuario cuando un enlace le redirige fuera de la app a un proveedor externo.
+   * Si se percibe una comisión o contraprestación por esos enlaces de afiliados, la información debe ser transparente para no incurrir en publicidad engañosa.
+
+3. **Regulación del Uso de Cookies e Identificadores (Art. 22.2 LSSI-CE):** Si la app o su versión web utiliza cookies, SDKs de analítica (ej. Google Analytics, Firebase) o identificadores publicitarios en el dispositivo:
+   * Se debe obtener el consentimiento informado y previo del usuario antes de instalar o ejecutar rastreadores no esenciales.
+   * La interfaz debe ofrecer un aviso inicial (banner o pop-up) accesible con opciones claras para "Aceptar", "Rechazar" o "Configurar" la analítica con el mismo nivel de visibilidad.
+
+4. **Comunicaciones Comerciales y Promocionales (Arts. 19 y 20 LSSI-CE):** Si en el futuro la app envía notificaciones push, boletines o correos con recomendaciones de viajes o promociones:
+   * Deben ser claramente identificables como publicidad (ej. incluir la palabra "Publicidad" o "Promo").
+   * Deben contar con el consentimiento previo del usuario (salvo que exista una relación contractual previa para productos similares).
+   * Se debe ofrecer un método sencillo y gratuito para darse de baja o desactivar las notificaciones promocionales en cualquier momento.
 
 ## 7.3 Accesibilidad y otros requisitos aplicables
 
