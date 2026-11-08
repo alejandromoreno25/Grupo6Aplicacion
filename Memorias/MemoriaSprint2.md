@@ -1,7 +1,7 @@
-## Sprint Review 02 - LazyTrip
+# Sprint Review 02 - LazyTrip
 
 
-### 1. Sector profesional y perfil de usuarios
+## 1. Sector profesional y perfil de usuarios
 
 ### 1.1 ¿En qué consiste?
 
@@ -27,7 +27,7 @@ Los usuarios, viajeros que usan la app para organizar sus viajes. Usuarios princ
 
 ### 1.2 ¿Qué hemos hecho y aportado?
 
-**1.2.1 Caracterización del sector**
+### 1.2.1 Caracterización del sector 
 
 LazyTrip se encuentra en el sector turístico, en el turismo digital y planificación de viajes, es decir, traveltech.
 LazyTrip no es una agencia, ni un hotel, ni una aerolínea, sino que ayuda al viajero a organizarlo todo: alojamiento, actividades y presupuesto.
@@ -54,13 +54,13 @@ De todo lo anterior sacamos que el sector necesita:
 - Filtrar por presupuesto real, no solo por precio por noche.
 - Automatizar la planificación, que es la parte más pesada del viaje.
 
-**1.2.2 Segmentación de perfiles de usuario**
+### 1.2.2 Segmentación de perfiles de usuario
 
 A partir de la encuesta que hicimos en el Sprint 1 y de los estudios del sector.
 
 Los usuarios de LazyTrip se dividen en dos grupos. Por un lado están los usuarios finales, que son los viajeros, y que agrupamos en tres perfiles. El primero es el viajero joven o estudiante, que tiene poco presupuesto, viaja con amigos y usa casi siempre el móvil. El segundo es el viajero familiar o trabajador, que tiene poco tiempo para organizar y suele viajar con su familia. El tercero es el viajero sénior o con movilidad reducida, que busca viajes tranquilos y alojamientos accesibles. Por otro lado está el usuario interno, el administrador del sistema, que se encarga de mantener la aplicación y de gestionar los usuarios y los datos.
 
-**1.2.3 Aportación documental**
+### 1.2.3 Aportación documental
 
 **1.2.3.1 Tabla descriptiva del sector y sus características organizativas**
 
@@ -106,9 +106,9 @@ Los usuarios de LazyTrip se dividen en dos grupos. Por un lado están los usuari
 
 ---
 
-**2. Análisis de la necesidad**
+## 2. Análisis de la necesidad
 
-**2.1 ¿Qué deben hacer y aportar? Diagnóstico de la situación de partida (As-Is)**
+### 2.1 ¿Qué deben hacer y aportar? Diagnóstico de la situación de partida (As-Is)
 
 Actualmente organizar un viaje requiere utilizar diferentes webs y aplicaciones, ya que no existe una única herramienta que permita gestionar todo el proceso.
 
@@ -129,7 +129,7 @@ Problemas encontrados: Durante todo este proceso aparecen varias dificultades, c
 Por ello LazyTrip lo integra todo desde una misma aplicación en la cual puedes elegir el destino, la fecha, la duración y el coste que se haga más a tu bolsillo y la propia app se encarga de hacerte un itinerario además de una planificación de tu viaje todo esto sin salir de la app, quedandose todo registrado en una pestaña.
 
 
-*** 3.2 Análisis de Opciones Actuales y sus Limitaciones
+### 3.2 Análisis de Opciones Actuales y sus Limitaciones
 
 * Booking.com (Líder en reservas puntual/transaccional)
 
@@ -154,7 +154,7 @@ Supera a Booking.com al extender los filtros de accesibilidad física más allá
 
 Planificación Eficiente y Colaborativa: Implementa mapas dinámicos e itinerarios compartidos que reducen el tiempo de organización y eliminan la fricción entre grupos de viaje o personas con necesidades específicas de accesibilidad**
 
-*** 3.2.1 Identificación de software competidor
+### 3.2.1 Identificación de software competidor
 
 Extranet: es el centro de operaciones de alojamiento en Booking.com. Desde aquí puede gestionarse todo, desde las tarifas y la disponibilidad, hasta la comunicación con los huéspedes. Su función principal es agilizar las tareas y personalizar la página de alojamiento. 
 
@@ -176,22 +176,22 @@ Enviar mensajes a cada huésped al instante. Mantén una comunicación fluida y 
 
 ---
 
-**7.3 Accesibilidad y otros requisitos aplicables**
+## 7.3 Accesibilidad y otros requisitos aplicables
 
-**7.3.1 ¿Qué debemos hacer?**
+### 7.3.1 ¿Qué debemos hacer?
 
 Conseguir que LazyTrip pueda usarla el mayor número de personas posible, incluidas las personas con alguna limitación visual, auditiva o motriz. Además de ser uno de nuestros objetivos, es una obligación legal: la Ley 11/2023, que traslada a España la Directiva Europea de Accesibilidad (Directiva UE 2019/882), exige desde el 28 de junio de 2025 que los nuevos productos y servicios digitales, incluidas las aplicaciones móviles, cumplan requisitos de accesibilidad [10].
 
-**7.3.2 ¿Qué aportamos?**
+### 7.3.2 ¿Qué aportamos?
 
-**7.3.2.1 Principios de accesibilidad adoptados**
+### 7.3.2.1 Principios de accesibilidad adoptados
 
 Seguimos dos referencias:
 
 - WCAG 2.2, nivel AA [11]. Aunque se llaman "web", sus principios se aplican también a apps. Se basan en cuatro principios: que el contenido sea perceptible, operable, comprensible y robusto.
 - Norma UNE-EN 301 549, que es la norma europea con los requisitos de accesibilidad para productos y servicios TIC y la que se usa como referencia para cumplir la ley [12].
 
-**7.3.2.2 Decisiones en la interfaz**
+### 7.3.2.2 Decisiones en la interfaz
 
 Para que LazyTrip sea accesible, hemos tomado varias decisiones de diseño basadas en las WCAG 2.2 y en la norma UNE-EN 301 549.
 
@@ -211,7 +211,7 @@ En cuanto a los textos, usaremos un lenguaje sencillo, con frases cortas y sin t
 
 Por último, la app incluirá un filtro de accesibilidad para mostrar solo alojamientos accesibles y una opción de itinerario con "ritmo tranquilo", pensada para personas con movilidad reducida.
 
-**7.3.2.3 Otras normas aplicables**
+### 7.3.2.3 Otras normas aplicables
 
 - Ley 34/2002 de Servicios de la Sociedad de la Información [13]: obliga a informar de quién es el responsable de la app, datos identificativos y contacto, y regula el uso de cookies y tecnologías de rastreo, y también los enlaces de afiliados de carácter comercial.
 - Normas de Google Play y App Store: para publicar la app hay que rellenar la sección de seguridad de datos (Google Play) y las "etiquetas de privacidad" (App Store), indicando qué datos recoge la app y para qué.
@@ -219,7 +219,7 @@ Por último, la app incluirá un filtro de accesibilidad para mostrar solo aloja
 ---
 
 
-### Referencias
+## Referencias
 
 - [1] M. Pérez, "¿Qué es Traveltech? Tecnología para el turismo," *Smartvel Blog*, 19-jul-2024. [En línea]. Disponible en: https://www.smartvel.com/es/resources/blog-es/que-es-traveltech-tecnologia-para-el-turismo. [Accedido: 24-oct-2026].
 - [2] Ministerio de Industria y Turismo, "Datos de Frontur y Egatur del INE. Diciembre 2025," *Nota de prensa*, 03-feb-2026. [En línea]. Disponible en: https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2026/documents/20260203%20ndp%20frontur%20egatur%20diciembre.pdf. [Accedido: 28-oct-2026].
