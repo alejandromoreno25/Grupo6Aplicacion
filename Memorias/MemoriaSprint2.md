@@ -128,8 +128,8 @@ Problemas encontrados: Durante todo este proceso aparecen varias dificultades, c
 
 Por ello LazyTrip lo integra todo desde una misma aplicación en la cual puedes elegir el destino, la fecha, la duración y el coste que se haga más a tu bolsillo y la propia app se encarga de hacerte un itinerario además de una planificación de tu viaje todo esto sin salir de la app, quedandose todo registrado en una pestaña.
 
-
-### 3.2 Análisis de Opciones Actuales y sus Limitaciones
+## 3. Estudio de Soluciones Existentes
+### 3.1 Análisis de Opciones Actuales y sus Limitaciones
 
 * Booking.com (Líder en reservas puntual/transaccional)
 
@@ -154,7 +154,7 @@ Supera a Booking.com al extender los filtros de accesibilidad física más allá
 
 Planificación Eficiente y Colaborativa: Implementa mapas dinámicos e itinerarios compartidos que reducen el tiempo de organización y eliminan la fricción entre grupos de viaje o personas con necesidades específicas de accesibilidad**
 
-### 3.2.1 Identificación de software competidor
+### 3.2 Identificación de software competidor
 
 Extranet: es el centro de operaciones de alojamiento en Booking.com. Desde aquí puede gestionarse todo, desde las tarifas y la disponibilidad, hasta la comunicación con los huéspedes. Su función principal es agilizar las tareas y personalizar la página de alojamiento. 
 
@@ -175,6 +175,153 @@ Supervisar el rendimiento. Accede a información clave para hacer crecer tu nego
 Enviar mensajes a cada huésped al instante. Mantén una comunicación fluida y disfruta de tiempos de respuesta rápidos.
 
 ---
+
+## 4. Partes interesadas (Stakeholders)
+
+## 5. Estudio Viabilidad Técnica
+## 5.1 En Qué Consiste la Viabilidad Técnica
+
+Realizar un análisis de viabilidad técnica se basa fundamentalmente en estudiar si una idea o proyecto realmente se puede llevar a la práctica con los recursos y la tecnología disponibles, evaluando la factibilidad real de la propuesta [16]. En resumen, consiste en revisar a fondo si se cuenta con la infraestructura necesaria, los programas, la maquinaria y, sobre todo, si el equipo de trabajo posee el conocimiento y la capacidad para sacarlo adelante sin fallos críticos [17]. 
+
+En este proceso no solo se evalúa si la tecnología existe y está disponible a un costo razonable, sino que también se contemplan aspectos normativos, de seguridad y la gestión de posibles riesgos operativos [16], [18]. En última instancia, este estudio permite poner los pies en la tierra, constatar si el proyecto es realista y asegurar que no se invertirán tiempo ni recursos en construir una solución técnicamente inejecutable [17], [18].
+
+---
+
+## 5.2 ¿Qué Debemos Aportar?
+
+### 5.2.1 Pila Tecnológica
+
+#### Lenguajes y Librería Gráfica (Entorno de Escritorio)
+* **Java:** Seleccionado como lenguaje de programación principal para la versión de escritorio por el dominio previo del equipo. Permite diseñar una arquitectura sólida, bien estructurada y escalable, reduciendo significativamente la curva de aprendizaje inicial.
+* **Swing:** Librería gráfica nativa de Java elegida para el desarrollo de la interfaz de usuario. Aunque presenta un diseño convencional, proporciona los componentes básicos necesarios (ventanas, paneles, botones) para estructurar la aplicación.
+* **Soporte HiDPI:** Swing ofrece soporte nativo para pantallas de alta densidad de píxeles (HiDPI/4K), escalando automáticamente los componentes gráficos para evitar interfaces borrosas o desproporcionadas y garantizando la nitidez de la tipografía y los elementos visuales.
+
+#### Lenguaje y Framework (Entorno Móvil)
+* **Dart:** Lenguaje seleccionado para el desarrollo móvil multiplataforma. Ofrece una sintaxis cercana a Java —lo que facilita el aprendizaje— y un manejo eficiente de ejecuciones asíncronas [19].
+* **Flutter:** Framework utilizado junto a Dart que destaca por renderizar directamente cada píxel en pantalla mediante su propio motor gráfico, garantizando una interfaz idéntica en iOS y Android [19]. Además, proporciona una amplia biblioteca de widgets personalizables para el diseño de menús y mapas, respaldada por una comunidad activa.
+
+#### Servicios en la Nube y Backend
+* **Firebase:** Plataforma Backend as a Service (BaaS) seleccionada para gestionar la infraestructura en la nube de forma unificada [20]. Ofrece SDKs oficiales tanto para Flutter/Dart como para Java en escritorio, garantizando que la base de datos, el almacenamiento de archivos y los medios permanezcan sincronizados en tiempo real entre ambas plataformas.
+
+#### APIs Externas de Terceros
+1. **API "Buscar, ver y redirigir" de Booking.com:**
+   * **Hoteles y Precios Reales:** Consulta disponibilidad, imágenes, valoraciones y tarifas reales en función de la ciudad, fechas y número de huéspedes [21], [22].
+   * **Moneda Homogénea:** Retorna los precios en euros (€) para adaptarse al público objetivo en España.
+   * **Reserva por Redirección:** La aplicación no procesa pagos ni almacena datos bancarios; redirige al usuario a la plataforma oficial de Booking.com con los parámetros preseleccionados [22].
+   * **Modelo Gratuito:** El uso de la API es gratuito bajo el programa de afiliados de la plataforma [21].
+2. **Google Places API (New):**
+   * Obtiene nombres de establecimientos, fotografías de alta calidad, coordenadas geográficas, valoraciones y rangos de precios para las actividades de la ciudad [23].
+   * Permite guardar el identificador del lugar en la base de datos bajo el día correspondiente del viaje y calcula la estimación de gasto restándola del presupuesto diario.
+3. **Google Maps API:**
+   * Visualiza el mapa interactivo de la ciudad de destino y renderiza marcadores numéricos asociados a las actividades guardadas en la lista del viaje.
+
+#### Capa de Persistencia y Bases de Datos
+* **Firebase Cloud Firestore:** Base de datos NoSQL orientada a documentos empleada para almacenar usuarios, itinerarios, listas de actividades y presupuestos [22]. Cuenta con *stream listeners* para sincronización bidireccional instantánea entre Java y Flutter, además de caché local en el cliente para permitir consultas *offline* [22].
+
+| Apartados | Firebase Cloud Firestore | SQLite | MySQL / PostgreSQL | MongoDB |
+| :--- | :--- | :--- | :--- | :--- |
+| **Arquitectura** | NoSQL orientada a documentos (Cloud) | SQL relacional embebido en cliente | SQL relacional cliente-servidor | NoSQL orientada a documentos |
+| **Sincronización Escritorio ↔ Móvil** | Sincronización automática | Requiere construir infraestructura y servidor propio | Exige implementar un backend intermedio | Requiere configurar Atlas App Services o backend propio |
+| **Disponible Offline** | Guarda cambios en caché local y sincroniza al reconectar | Base local (sin sincronización cloud integrada) | Falla si no hay conexión al servidor remoto | Requiere librerías adicionales de sincronización |
+| **Integración Java + Flutter** | Conexión directa mediante librerías nativas | Requiere librerías distintas | Backend obligatorio (API REST / Spring Boot) | Backend obligatorio (Servidor intermedio) |
+| **Precio** | Capa gratuita holgada (50k lecturas/día) | Gratis (Sin servidor, datos aislados por dispositivo) | De Pago (Alquiler y mantenimiento de VPS 24/7) | De Pago (Servidor dedicado o cluster administrado) |
+
+#### Herramientas Auxiliares
+* **Generación de Informes y PDFs:**
+  * **Escritorio:** Implementación de *JasperReports* en NetBeans para compilar plantillas visuales (`.jrxml`) y poblar las exportaciones con los datos del viaje.
+  * **Móvil:** Utilización de paquetes nativos de exportación PDF en Flutter para generar el documento en la memoria del dispositivo y permitir su descarga o lectura.
+* **Motor de Pruebas:**
+  * **Escritorio:** *JUnit 5* para pruebas unitarias y *Mockito* para simular las respuestas de las APIs externas y la base de datos [24].
+  * **Móvil:** *flutter_test* y la versión correspondiente de *Mockito* en Dart para validar la lógica del presupuesto y la renderización de la interfaz [24].
+* **Entorno de Desarrollo (IDE) y Control de Versiones:**
+  * **IDEs:** *Apache NetBeans* (Java Swing con Matisse) y *Android Studio* (Flutter/Dart).
+  * **Control de Versiones:** *Git* y *GitHub* como repositorio centralizado.
+
+---
+
+### 5.2.2 Requisitos de Hardware y Entornos de Despliegue
+
+#### Especificaciones de las Máquinas de Desarrollo
+* **Sistema Operativo:** Windows 11 Pro.
+* **Procesador (CPU):** Intel Core i5 de 12.ª generación.
+* **Memoria RAM:** 16 GB mínimo (necesarios para la ejecución fluida de IDEs y emuladores).
+* **Almacenamiento y Gráficos:** 400 GB SSD y gráfica integrada Intel UHD Graphics 770.
+
+#### Requisitos Mínimos del Equipo Cliente
+
+##### Cliente de Escritorio
+* **Procesador (CPU):** Intel Core i3 (64 bits a 2.0 GHz).
+* **Memoria RAM:** 4 GB (Mínima) / 8 GB (Recomendada).
+* **Almacenamiento:** 300 MB libres en disco.
+* **Soporte Gráfico:** Tarjeta con OpenGL 2.0 o superior y aceleración por hardware.
+* **Sistema Operativo:** Windows 10/11 (64-bit), GNU/Linux (Ubuntu 20.04 LTS, Debian 11, Fedora 34 o superiores) o macOS 11 (Big Sur) en adelante.
+* **Conexión a Red:** Mínimo 5 Mbps para sincronización en tiempo real y llamadas a APIs.
+
+##### Cliente Móvil
+* **Sistema Operativo:** Android 7.0 (minSDK 24) o iOS 12.0 / superior.
+* **Procesador:** 64 bits de 4 núcleos (Gama media/baja-media: Qualcomm Snapdragon serie 400, MediaTek Helio, Samsung Exynos o Apple A9 / superior).
+* **Memoria RAM:** 2 GB (Mínima) / 3 GB o superior (Recomendada).
+* **Almacenamiento:** Máximo 150 MB libres en almacenamiento interno (incluye el binario compilado `.apk` / `.ipa` y la caché local de Firestore).
+
+---
+
+### 5.2.3 Curva de Aprendizaje y Evaluación del Equipo
+
+El plan de capacitación del equipo se divide según el grado de familiaridad con las tecnologías del proyecto:
+
+#### 1. Dominio Alto (Conocimiento Previo)
+* **Java:** Sintaxis fundamental, estructuras de control, POO (encapsulamiento, herencia, polimorfismo, abstracción) e interfaces gráficas con Swing y el diseñador Matisse en NetBeans.
+* **Bases de Datos:** Conceptos de modelado, estructuración de datos y lógica relacional/documental.
+* **Entornos de Desarrollo:** Manejo de IDEs para compilación y depuración de código Java.
+
+#### 2. Dominio Medio (Conocimiento Básico / En Proceso)
+* **Control de Versiones:** Flujo de trabajo esencial con Git y GitHub integrado en el IDE.
+* **Android Studio & Emuladores:** Configuración del entorno móvil, plugins de Flutter/Dart y gestión de dispositivos virtuales.
+* **Pruebas Unitarias:** Configuración básica y ejecución de componentes de prueba con JUnit 5 [10].
+
+#### 3. Autoformación Completa (Aprendizaje Requerido)
+* **Dart y Flutter:** Transición desde los conceptos teóricos abordados en el curso hasta el desarrollo completo de la aplicación móvil multiplataforma [19].
+* **Arquitectura NoSQL con Firebase:** Aprendizaje del modelado no relacional en Cloud Firestore y consumo de sus SDKs para operaciones CRUD y eventos en tiempo real [20], [22].
+* **Consumo de APIs REST:** Implementación de cliente HTTP para la integración con Google Places API y la API de Booking.com [21], [23].
+* **Pruebas con Aislamiento (Mockito):** Aislamiento de llamadas externas y simulación de respuestas (*mocking*) durante la ejecución de pruebas automatizadas
+* **Generación de PDFs:** Diseño de plantillas e integración de librerías para la generación dinámica de reportes en ambos entornos.
+
+### 5.2.3.1 ¿Cuánto tiempo nos tomará aprender cada herramienta para desarrollar nuestra aplicación?
+Sin ser expertos en estas herramientas, pero habiendo investigado sobre ellas hemos llegado a la conclusión de que los tiempos estimados serán los siguientes:
+- Android Studio--> Nos llevará 2 horas como máximo aprender todo lo necesario de Android Studio para realizar nuestra aplicación.
+- Dart y Flutter--> Pese a ser parecido a java, consideramos que tiene una curva de aprendizaje importante para nosotros. Nos tomará alrededor de unas 8 horas volvernos expertos en Dart y Flutter para desarrollar nuestra aplicación
+- Firebase y Firestone--> Es una herramienta que a pesar de ser muy útil también tiene una gran curva de aprendizaje. nos tomará alrededor de unas 8/10 horas convertirnos expertos de estas dos plataformas.
+- Mockito--> Es una herramienta de pruebas que es muy útil para hacer mockups que prueben nuestra aplicación. De media, nos tomará unas 4 horas aprenderla.
+
+---
+
+### 5.2.4 Aportación Documental y Conclusión (Dictamen)
+
+#### Resumen de la Arquitectura del Sistema
+
+| Capa / Módulo | Tecnología Elegida | Versión / Detalle Técnico |
+| :--- | :--- | :--- |
+| **Cliente de Escritorio** | Java + Swing | NetBeans IDE 30 / Java 25 |
+| **Cliente Móvil** | Dart + Flutter | SDK Flutter (compilación AOT nativa para ARM64) [19] |
+| **BaaS / Base de Datos** | Firebase Cloud Firestore | NoSQL Documental, SDK nativo Flutter/Dart + SDK Java, sincronización en tiempo real [20], [22] |
+| **Base de Datos Offline** | Firestore Client Cache | Almacenamiento transparente en cliente [22] |
+| **APIs de Alojamientos** | Booking.com Demand API | API "Buscar, ver y redirigir", precios en Euros (€), programa de afiliados [20], [21] |
+| **APIs de Lugares / Precios** | Google Places API (New) | Peticiones REST HTTP JSON, extracción de establecimientos, fotos y cálculo de rango medio [23] |
+| **APIs de Mapas** | Google Maps Platform | Maps SDK en Flutter + Web / Static Maps API en Java Swing con marcadores numerados |
+| **Reportes en Escritorio** | JasperReports | Plantillas visuales procesadas e integradas desde NetBeans |
+| **Reportes en Móvil** | Paquetes `pdf` | Maquetación en memoria y previsualización/exportación mediante menú nativo |
+| **Testing (Escritorio)** | JUnit 5 + Mockito | Pruebas unitarias de algoritmos de presupuesto y simulación de respuestas API/Firestore|
+| **Testing (Móvil)** | `flutter_test` + Mockito | Pruebas de componentes (Widget Testing) y controladores en Dart [24] |
+| **IDEs de Desarrollo** | NetBeans & Android Studio | Apache NetBeans 17+ (Java/Swing) y Android Studio (Flutter/Dart + emuladores) |
+| **Control de Versiones** | Git + GitHub | Repositorio remoto centralizado, control de ramas y flujo de trabajo integrado en IDE |
+| **Plataforma de Desarrollo** | PC Windows 11 Pro | Intel Core i5 12.ª Gen, 16 GB RAM, Intel UHD Graphics 770, 400 GB SSD |
+
+#### Dictamen Final de Viabilidad
+
+Tras analizar profundamente cada punto de la viabilidad técnica y planificar adecuadamente la curva de aprendizaje del equipo, se concluye que el proyecto **LazyTrip ES TÉCNICAMENTE VIABLE** [16], [17]. El ecosistema tecnológico seleccionado garantiza la interoperabilidad entre los clientes de escritorio y móvil, optimiza el consumo de datos mediante llamadas eficientes a las APIs de terceros y permite empaquetar, probar y desplegar la solución dentro de los plazos académicos establecidos [18], [19].
+
+---
+
 
 ## 7.3 Accesibilidad y otros requisitos aplicables
 
@@ -234,8 +381,15 @@ Por último, la app incluirá un filtro de accesibilidad para mostrar solo aloja
 - [11] W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," *W3C Recommendation*, 5 oct. 2023. [En línea]. Disponible en: https://www.w3.org/TR/WCAG22/. [Accedido: 3 nov. 2026].
 - [12] AENOR, *UNE-EN 301549:2019. Requisitos de accesibilidad para productos y servicios TIC*. Madrid, España: AENOR, 2019. [En línea]. Disponible en: https://www.defensa.gob.es/invied/va/Galerias/ficheros/general/ACC_Norma-UNE-EN-301549-2019-OAW.pdf. [Accedido: 4 nov. 2026].
 - [13] Jefatura del Estado, "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico," *Boletín Oficial del Estado*, núm. 166, 12 jul. 2002. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758. [Accedido: 5 nov. 2026].
-
-
-
-[1] Booking.com, «La Extranet», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/extranet [Accedido: 22-oct-2026].
-[2] Booking.com, «La aplicación Pulse», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/aplicaci%C3%B3n-pulse [Accedido: 22-oct-2026].
+  
+- [14] Booking.com, «La Extranet», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/extranet [Accedido: 22-oct-2026].
+- [15] Booking.com, «La aplicación Pulse», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/aplicaci%C3%B3n-pulse [Accedido: 22-oct-2026].
+- [16] O. Caita, «¿Qué es la viabilidad técnica de un proyecto?», *Oscar Caita*, 18-nov-2025. [En línea]. Disponible en: https://www.oscarcaita.com/viabilidad-tecnica-de-un-proyecto/.
+- [17] Cegos España, «Estudio de viabilidad de un proyecto: qué es, tipos, fases e informe», *Cegos Insights*, 19-may-2026. [En línea]. Disponible en: https://www.cegos.es/insights/blog/tendencias-desarrollo-aprendizaje/5-pasos-para-realizar-un-estudio-de-viabilidad-de-un-proyecto.
+- [18] Crédito y Caución, «Los seis tipos de viabilidad empresarial», *Blog CyC*. [En línea]. Disponible en: https://www.creditoycaucion.es/es/blog/detalle/seis-tipos-viabilidad-empresarial. 
+- [19] Adapty, «Flutter vs Kotlin: ¿Cuál elegir para tu aplicación móvil?», *Adapty Blog*. [En línea]. Disponible en: https://adapty.io/es/blog/flutter-vs-kotlin/. 
+- [20] Digital55, «¿Qué es Firebase? Funcionalidades, ventajas y conclusiones», *Digital55 Blog*. [En línea]. Disponible en: https://digital55.com/blog/que-es-firebase-funcionalidades-ventajas-conclusiones/. 
+- [21] Booking.com, «Programa de afiliados de Booking.com», *Booking.com Partner Network*. [En línea]. Disponible en: https://www.booking.com/affiliate-program/v2/index.es.html.
+- [22] Booking.com Hub, «Search, Look, Redirect Application Flow», *Booking.com Demand API Docs*. [En línea]. Disponible en: https://developers.booking.com/demand/docs/development-guide/application-flows/search-look-redirect. 
+- [23] Google Developers, «Documentación oficial de Cloud Firestore», *Google Firebase*. [En línea]. Disponible en: https://firebase.google.com/docs/firestore?hl=es-419.
+- [24] Google Maps Platform, «Places API (New) Overview», *Google Developers*. [En línea]. Disponible en: https://developers.google.com/maps/documentation/places/web-service/overview.
