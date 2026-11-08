@@ -128,51 +128,95 @@ Problemas encontrados: Durante todo este proceso aparecen varias dificultades, c
 
 Por ello LazyTrip lo integra todo desde una misma aplicación en la cual puedes elegir el destino, la fecha, la duración y el coste que se haga más a tu bolsillo y la propia app se encarga de hacerte un itinerario además de una planificación de tu viaje todo esto sin salir de la app, quedandose todo registrado en una pestaña.
 
-## 3. Estudio de Soluciones Existentes
-### 3.1 Análisis de Opciones Actuales y sus Limitaciones
+# 3. Estudio de Soluciones Existentes
 
-* Booking.com (Líder en reservas puntual/transaccional)
+## 3.1 Análisis de Opciones Actuales y sus Limitaciones
 
-Fortalezas: Excelente diseño en términos de contraste cromático, uso de etiquetas para lectores de pantalla y filtros de accesibilidad física estructurados.
-Limitaciones: Funciona únicamente como un archivador de reservas. No permite construir ni estructurar activamente un itinerario diario personalizado con elementos externos o actividades que no se hayan reservado directamente a través de su plataforma.
+### 1. Booking.com (Líder en reservas puntual/transaccional)
+* **Fortalezas:** Muestra un excelente diseño en términos de contraste cromático, uso de etiquetas para lectores de pantalla y filtros de accesibilidad física bien estructurados.
+* **Limitaciones:** Funciona únicamente como un archivador de reservas. No permite construir ni estructurar activamente un itinerario diario personalizado con elementos externos o actividades que no se hayan reservado directamente a través de su plataforma.
 
-* TripAdvisor (Líder en exploración e itinerarios flexibles)
+### 2. TripAdvisor (Líder en exploración e itinerarios flexibles)
+* **Fortalezas:** Destaca como una excelente herramienta de planificación (*Trips* con IA), mapa interactivo para optimizar rutas diarias según cercanía y opciones colaborativas.
+* **Limitaciones:** Presenta deficiencias importantes en accesibilidad digital (fatiga visual por acumulación de contenido, falta de etiquetado adecuado en VoiceOver/TalkBack) y carece de filtros específicos para accesibilidad física, dependiendo casi exclusivamente de las opiniones de los usuarios.
 
-Fortalezas: Excelente herramienta de planificación (Trips con IA), mapa interactivo para optimizar rutas diarias según cercanía y opciones colaborativas.
-Limitaciones: Presenta deficiencias importantes en accesibilidad digital (fatiga visual por acumulación de contenido, falta de etiquetado adecuado en VoiceOver/TalkBack) y carece de filtros específicos para accesibilidad física, dependiendo casi exclusivamente de las opiniones de los usuarios.
-
-** Valor Diferencial de la Solución Propuesta
+### Valor Diferencial de la Solución Propuesta
 
 La solución propuesta resuelve el problema central del mercado: la fragmentación entre la gestión de reservas, la planificación accesible y la usabilidad inclusiva.
-¿Por qué resuelve mejor el problema y aporta un valor diferencial?
-Unificación de Planificación Activa y Gestión Logística: A diferencia de Booking.com (que es reactivo), nuestra plataforma permite incorporar tanto reservas formales como actividades externas no reservables (miradores, parques, paseos) en una línea temporal (timeline) interactiva e integral.
 
-Accesibilidad Digital y Física Integral (Inclusión de Primer Nivel):
-Supera a TripAdvisor al ofrecer una interfaz limpia, sin saturación de elementos que provoquen fatiga visual, garantizando el cumplimiento riguroso de las directrices WCAG 2.1 y un soporte óptimo para VoiceOver / TalkBack.
+Resuelve mejor el problema y aporta un valor diferencial a través de los siguientes pilares:
 
-Supera a Booking.com al extender los filtros de accesibilidad física más allá del alojamiento, integrándolos en las rutas, el transporte y las actividades del itinerario.
+1. **Unificación de Planificación Activa y Gestión Logística:** A diferencia de Booking.com (que mantiene un enfoque reactivo), la plataforma desarrollada permite incorporar tanto reservas formales como actividades externas no reservables (miradores, parques, paseos) en una línea temporal (*timeline*) interactiva e integral.
+2. **Accesibilidad Digital y Física Integral (Inclusión de Primer Nivel):**
+   * Supera a TripAdvisor al ofrecer una interfaz limpia, sin saturación de elementos que provoquen fatiga visual, garantizando el cumplimiento riguroso de las directrices WCAG 2.1 y un soporte óptimo para VoiceOver / TalkBack.
+   * Supera a Booking.com al extender los filtros de accesibilidad física más allá del alojamiento, integrándolos en las rutas, el transporte y las actividades del itinerario.
+3. **Planificación Eficiente y Colaborativa:** Implementa mapas dinámicos e itinerarios compartidos que reducen el tiempo de organización y eliminan la fricción entre grupos de viaje o personas con necesidades específicas de accesibilidad.
 
-Planificación Eficiente y Colaborativa: Implementa mapas dinámicos e itinerarios compartidos que reducen el tiempo de organización y eliminan la fricción entre grupos de viaje o personas con necesidades específicas de accesibilidad**
+---
 
-### 3.2 Identificación de software competidor
+## 3.2 Identificación de Software Competidor y Análisis Comparativo
 
-Extranet: es el centro de operaciones de alojamiento en Booking.com. Desde aquí puede gestionarse todo, desde las tarifas y la disponibilidad, hasta la comunicación con los huéspedes. Su función principal es agilizar las tareas y personalizar la página de alojamiento. 
+### 3.2.1 Identificación del Software Competidor
 
-Una de las primeras utilidades de la página es gestionar los calendarios con eficacia, a través de la página ‘Tarifas y disponibilidad’. Esta funciona como un portal de gestión de fechas, en el que se pueden habilitar estas para que los usuarios reserven los alojamientos. 
+#### Extranet de Booking.com
+Es el centro de operaciones de alojamiento en Booking.com [1]. Desde este panel puede gestionarse todo el flujo operativo, desde las tarifas y la disponibilidad hasta la comunicación directa con los huéspedes. Su función principal radica en agilizar las tareas administrativas y personalizar la página del alojamiento.
 
-Otra funcionalidad existente es la posibilidad de comunicación con los usuarios, huéspedes y equipo de asistencia de la aplicación. Esto funciona a través de la pestaña ‘Bandeja de entrada’, que almacena los mensajes e incorpora traducción para salvar las diferencias de idioma. 
+Una de las primeras utilidades del portal es la gestión eficaz de calendarios a través de la sección "Tarifas y disponibilidad", la cual opera como un portal de control de fechas donde se habilitan los periodos disponibles para la reserva de usuarios [1].
 
-La página Establecimiento permite añadir claves sobre el alojamiento, subir fotos, establecer condiciones y proporcionar detalles sobre las instalaciones. Esta información es recogida para generar automáticamente la descripción del alojamiento.
+Otra funcionalidad existente es la canalización de la comunicación entre usuarios, huéspedes y el equipo de asistencia de la aplicación. Esto se articula mediante la pestaña "Bandeja de entrada", que almacena los mensajes e incorpora traducción automática para salvar las barreras idiomáticas [1].
 
-Pulse App: se trata de una aplicación oficial para colaboradores en la que se permite supervisar las reservas, actualizar la disponibilidad y enviar mensajes a los huéspedes directamente desde el teléfono. 
+Por su parte, la sección "Establecimiento" permite añadir claves sobre el alojamiento, cargar recursos fotográficos, fijar condiciones y detallar las instalaciones. Esta información se procesa para generar automáticamente la descripción del inmueble [1].
 
-En la aplicación Pulse, puedes:
+#### Pulse App
+Se trata de la aplicación móvil oficial para colaboradores de Booking.com, orientada a supervisar reservas, actualizar disponibilidad y mantener comunicación con los huéspedes desde dispositivos móviles [2].
 
-Actualizar el calendario. Ajusta la disponibilidad y consulta las reservas desde cualquier lugar.
-Controlar las llegadas y salidas. Ve quién llega y quién se va de forma resumida.
-Recibir alertas en tiempo real. No vuelvas a pasar por alto ninguna reserva ni cancelación.
-Supervisar el rendimiento. Accede a información clave para hacer crecer tu negocio.
-Enviar mensajes a cada huésped al instante. Mantén una comunicación fluida y disfruta de tiempos de respuesta rápidos.
+A través de la aplicación Pulse es posible:
+* **Actualizar el calendario:** Ajustar la disponibilidad y consultar las reservas en cualquier momento y lugar.
+* **Controlar llegadas y salidas:** Visualizar de forma resumida el flujo de entradas y salidas de huéspedes.
+* **Recibir alertas en tiempo real:** Prevenir la omisión de reservas confirmadas o cancelaciones.
+* **Supervisar el rendimiento:** Acceder a información clave para impulsar la toma de decisiones del negocio.
+* **Enviar mensajes al instante:** Mantener una comunicación fluida y reducir los tiempos de respuesta ante consultas de los clientes.
+
+### 3.2.2 Análisis Comparativo
+
+#### 1. Coste de Implantación (para el usuario final)
+* **Booking.com:** Gratuito. No requiere coste directo de descarga ni de uso para el usuario. Su modelo de negocio se sostiene en las comisiones cobradas a los proveedores de alojamientos y servicios por cada reserva confirmada.
+* **TripAdvisor:** Gratuito. Al igual que Booking.com, el acceso a la aplicación móvil y a la herramienta de planificación no aplica cargos a los usuarios. Su modelo monetario combina publicidad contextual, enlaces de afiliados a plataformas externas y suscripciones para proveedores (TripAdvisor Plus o perfiles comerciales).
+* **LazyTrip:** Gratuito. La aplicación mantiene un carácter totalmente gratuito tanto para su instalación como para su uso continuo, prescindiendo de compras o transacciones *in-app*. El modelo de negocio se fundamenta en la integración de enlaces a servicios de terceros.
+
+#### 2. Curva de Aprendizaje
+* **Booking.com:** Muy baja. El embudo de conversión está diseñado para completarse en pocos pasos (Búsqueda $\rightarrow$ Selección $\rightarrow$ Datos de pago $\rightarrow$ Confirmación). La navegación resulta predecible e intuitiva, permitiendo que cualquier usuario ejecute una reserva sin formación previa.
+* **TripAdvisor:** Baja a Media. Presenta una curva ligeramente más marcada debido a la variedad de funciones integradas (almacenamiento en listas, interacción con mapas, lectura de reseñas comunitarias y uso del creador de itinerarios por IA). Aunque es accesible para el público general, exige mayor exploración para dominar las herramientas de planificación.
+* **LazyTrip:** Muy Baja. Adhiriéndose al principio de los tres clics, se prioriza una usabilidad sencilla para usuarios de cualquier perfil, condición o edad, situando la accesibilidad en el centro de la interfaz.
+
+#### 3. Usabilidad de sus Interfaces Gráficas (GUI)
+* **Booking.com:**
+  * *Diseño:* Limpio, transaccional y orientado a la claridad visual de precios, fotos y políticas de cancelación.
+  * *Componentes:* Incorpora tipografía clara, botones amplios con estados visuales bien delimitados y retroalimentación inmediata durante el proceso de búsqueda.
+  * *Eficiencia:* Minimiza el número de interacciones táctiles necesarias para completar la transacción.
+* **TripAdvisor:**
+  * *Diseño:* Denso y con alta concentración de contenido multimedia (fotografías de usuarios, insignias, valoraciones representadas con círculos verdes y mapas interactivos).
+  * *Componentes:* Dispone de pestañas deslizantes, vistas de mapa con marcadores interactivos y un flujo multitarea constante.
+  * *Carga Cognitiva:* Mayor que la de Booking.com, pudiendo resultar saturada para usuarios que buscan realizar operaciones rápidas.
+* **LazyTrip:**
+  * *Diseño:* Limpio y respaldado por contenido multimedia de apoyo, como mapas para situar geográficamente el trayecto y separación de ventanas para cada fase de creación del itinerario.
+  * *Componentes:* Pestañas fijas que dividen la secuencia en etapas estructuradas. Secciones interactivas que agilizan la navegación para cumplir con la regla de los tres clics.
+  * *Carga cognitiva:* Muy baja, priorizando la accesibilidad y el confort visual mediante una paleta cromática homogénea que guía la navegación dentro del sistema.
+
+### 3.2.3 Matriz Comparativa
+
+#### 3.2.3.1 Tabla Comparativa de Soluciones
+
+| Parámetro Evaluable | Booking.com | TripAdvisor | LazyTrip |
+| :--- | :--- | :--- | :--- |
+| **Precio / Modelo de coste** | Gratuito (monetización por comisiones de reserva a proveedores). | Gratuito (monetización por publicidad, enlaces de afiliados y suscripciones a proveedores). | Gratuito (sin compras *in-app* ni micropagos; monetización basada exclusivamente en enlaces a terceros). |
+| **Curva de Aprendizaje** | **Muy Baja:** Embudo transaccional lineal y predecible (Búsqueda $\rightarrow$ Selección $\rightarrow$ Pago $\rightarrow$ Confirmación). | **Baja a Media:** Diversidad de herramientas (listas, mapas interactivos, IA) que requieren mayor exploración. | **Muy Baja:** Diseñada bajo la regla de los tres clics, simplificando la usabilidad para todo tipo de usuarios y edades. |
+| **Experiencia de Usuario (UX/UI)** | **Transaccional y Directa:** Prioriza claridad en precios y fotos. Minimiza toques por transacción. | **Exploratoria y Densa:** Rica en multimedia y mapas. Mayor carga cognitiva por densidad informativa. | **Accesible y Estructurada:** Diseño limpio, separación por fases en pestañas fijas y paleta homogénea con carga cognitiva muy baja. |
+| **Capacidad Multiplataforma** | **Muy Alta:** Apps nativas en iOS y Android, más versión web *responsive* (Windows, Linux, macOS). | **Muy Alta:** Apps nativas en iOS y Android, más versión web *responsive* sincronizada. | **Enfoque Móvil:** Optimizada para dispositivos móviles (Android/iOS) con navegación táctil simplificada. |
+| **Generación de Informes y Resúmenes** | **Basada en Reservas:** Confirmaciones en PDF, pases para billeteras digitales (Apple/Google Wallet) y archivos `.ics`. | **Basada en Planificación:** Itinerarios visuales diarios, mapas interactivos compartibles y exportación de listas. | **Estructuración por Fases:** Generación de itinerarios guiados paso a paso mediante ventanas dedicadas y resúmenes del viaje. |
+| **Soporte de Periféricos e Interfaces Avanzadas** | Lector de pantalla (VoiceOver/TalkBack), pago biométrico (Face ID/Touch ID), GPS e integración con calendarios. | Lector de pantalla, mapas dinámicos por GPS, subida de fotos vía cámara y asistentes de voz/IA. | Accesibilidad prioritaria (lectores de pantalla y alto contraste) y GPS para contextualización geográfica del itinerario. |
+| **Extensibilidad e Integraciones** | Exportación de reservas a Google/Apple/Outlook Calendar e integración con servicios de transporte (taxis/coches). | Integración social para colaboración en tiempo real (*Trips*), redes sociales y redirección a múltiples agregadores. | Redirección a servicios de terceros mediante enlaces externos integrados en las fases del itinerario. |
+| **Limitaciones Clave** | Rígida para planificación libre fuera de su red. Presión comercial (patrones oscuros como avisos de urgencia/escasez). | Mayor consumo de datos y batería. Dependencia de reseñas de la comunidad. Redirección de reservas fragmentada. | Dependencia total de plataformas de terceros para completar transacciones. Menor grado de personalización avanzada frente a plataformas con IA compleja. |
 
 ---
 
