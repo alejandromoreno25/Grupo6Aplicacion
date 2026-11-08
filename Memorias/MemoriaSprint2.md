@@ -1,3 +1,111 @@
+## Sprint Review 02 - LazyTrip
+
+
+### 1. Sector profesional y perfil de usuarios
+
+### 1.1 ¿En qué consiste?
+
+LazyTrip se encuentra en el sector del turismo digital, TravelTech [1], enfocado en la gestión y planificación de viajes de ocio y vacaciones.
+
+**Entorno productivo**
+
+Pertenece al sector turístico, en concreto al turismo digital y planificación de viajes.
+
+Organizar un viaje implica a tres partes: los proveedores de servicios (hoteles, restaurantes, museos, actividades, transporte…), los intermediarios digitales (Booking, Airbnb, TripAdvisor, Google…), que se encargan cada uno de una sola parte del viaje, y el viajero, que tiene que ir de una web a otra para montarlo todo a mano. LazyTrip se sitúa entre los proveedores y el viajero para juntarlo todo en un mismo sitio.
+
+contexto en el que funciona:
+Geográficamente se sitúa en España inicialmente, aunque permite organizar viajes a otros países.
+Dispositivos: versión de escritorio y versión móvil.
+Se usa antes del viaje, durante el viaje y después.
+
+**Perfiles que interactúan con la aplicación**
+
+Los usuarios, viajeros que usan la app para organizar sus viajes. Usuarios principales:
+- Estudiantes con poco presupuesto.
+- Familiares que tienen poco tiempo para organizar y viajan con su familia.
+- Viajero mayores de edad o movilidad reducida: busca viajes tranquilos y alojamientos accesibles
+
+### 1.2 ¿Qué hemos hecho y aportado?
+
+**1.2.1 Caracterización del sector**
+
+LazyTrip se encuentra en el sector turístico, en el turismo digital y planificación de viajes, es decir, traveltech.
+LazyTrip no es una agencia, ni un hotel, ni una aerolínea, sino que ayuda al viajero a organizarlo todo: alojamiento, actividades y presupuesto.
+
+Es un sector que está en crecimiento en España y no para de crecer.
+En 2025 llegaron a España casi 96,8 millones de turistas internacionales, con un gasto total de unos 134.712 millones de euros [2].
+El turismo aportó en 2025 unos 218.459 millones de euros a la economía española, alrededor del 13% del PIB [3].
+
+**Tendencias de digitalización**
+
+El sector se ha acelerado en estos años, sobre todo por la inteligencia artificial.
+
+Planificación de viajes con IA. Un estudio de Booking.com dice que el 38% de los españoles usará asistentes de IA para organizar sus viajes en 2025 [4].
+
+Personalización. La experiencia del viajero ya no empieza al llegar al destino, sino antes (cuando planifica) y sigue después, por ejemplo, cuando comparte o guarda recuerdos. Las tecnologías como la IA o el análisis de datos se usan para ofrecer experiencias más personalizadas [5].
+
+Viajes más ajustados de precio. Los españoles dicen que viajan con un presupuesto más ajustado por la inflación, sobre todo los más jóvenes [6]. Los viajeros low cost son principalmente de la Generación Z y Millennials.
+
+**Necesidades tecnológicas del sector**
+
+De todo lo anterior sacamos que el sector necesita:
+
+- Centralizar la información: ahora mismo el usuario salta entre Booking, Google Maps, TripAdvisor, blogs, Instagram… y acaba perdido.
+- Filtrar por presupuesto real, no solo por precio por noche.
+- Automatizar la planificación, que es la parte más pesada del viaje.
+
+**1.2.2 Segmentación de perfiles de usuario**
+
+A partir de la encuesta que hicimos en el Sprint 1 y de los estudios del sector.
+
+Los usuarios de LazyTrip se dividen en dos grupos. Por un lado están los usuarios finales, que son los viajeros, y que agrupamos en tres perfiles. El primero es el viajero joven o estudiante, que tiene poco presupuesto, viaja con amigos y usa casi siempre el móvil. El segundo es el viajero familiar o trabajador, que tiene poco tiempo para organizar y suele viajar con su familia. El tercero es el viajero sénior o con movilidad reducida, que busca viajes tranquilos y alojamientos accesibles. Por otro lado está el usuario interno, el administrador del sistema, que se encarga de mantener la aplicación y de gestionar los usuarios y los datos.
+
+**1.2.3 Aportación documental**
+
+**1.2.3.1 Tabla descriptiva del sector y sus características organizativas**
+
+| Característica | Descripción |
+| :--- | :--- |
+| **Ámbito de actividad** | Turismo y ocio, turismo digital / planificación de viajes (travel tech). Según la clasificación oficial CNAE-2025, se encuadra en la división 79 (agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas), clase 79.90 "Otros servicios de reservas y actividades relacionadas", ya que LazyTrip no vende viajes, sino que organiza y recomienda [7]. |
+| **Peso económico** | Según la Cuenta Satélite del Turismo del INE, la actividad turística supuso 200.699 millones de euros en 2024, el 12,6% del PIB [8]. Además, llegaron 96,8 millones de turistas internacionales en 2025 [2] y los residentes hicieron 184,4 millones de viajes en 2024 [9]. |
+| **Empleo** | Las ramas turísticas generaron más de 2,7 millones de puestos de trabajo en 2024, el 12,3% del empleo total [8]. |
+| **Principales agentes** | Alojamientos, transporte, agencias de viajes tradicionales, agencias online (Booking), plataformas de opiniones (TripAdvisor), organismos públicos (Ministerio, SEGITTUR, oficinas de turismo) y el propio viajero. |
+| **Organización del sector** | Muy fragmentado: cada servicio (dormir, moverse, comer, actividades) lo ofrece una empresa distinta y el viajero tiene que juntarlo todo por su cuenta. |
+| **Canales de venta** | Mayoritariamente online, con las agencias físicas perdiendo peso. |
+| **Nivel de digitalización** | Alto en la reserva, pero poco en planificación. Las plataformas actuales se centran en una sola parte del viaje (alojamiento, opiniones o mapas) y ninguna combina itinerario diario y presupuesto. |
+| **Necesidades tecnológicas** | Centralización, filtrado por presupuesto total, automatización de itinerarios, multiplataforma. |
+
+**1.2.3.2 Fichas de User Persona**
+
+**User Persona 1 – Lucía, 21 años, viajera joven / estudiante**
+
+| Campo | Descripción |
+| :--- | :--- |
+| **Rol laboral** | Estudiante universitaria que trabaja los fines de semana en una cafetería. |
+| **Competencias digitales previas** | Altas. Usa el móvil para todo y aprende rápido a usar apps nuevas. |
+| **Entorno de uso habitual** | Móvil. |
+| **Objetivos principales** | Introducir un presupuesto cerrado y que la app le organice el viaje sin pasarse. Guardar las fotos del viaje organizadas por día. |
+
+**User Persona 2 – Javier, 38 años, viajero familiar / trabajador**
+
+| Campo | Descripción |
+| :--- | :--- |
+| **Rol laboral** | Administrativo en una empresa a jornada completa, con dos hijos. |
+| **Competencias digitales previas** | Medias. Usa el ordenador a diario (ofimática y correo) y el móvil para lo básico. |
+| **Entorno de uso habitual** | Ordenador para planificar y móvil durante el viaje. |
+| **Objetivos principales** | Ahorrar tiempo organizando. Obtener un plan diario con actividades para toda la familia ajustado al presupuesto. |
+
+**User Persona 3 – Carmen, 67 años, viajera sénior / con movilidad reducida**
+
+| Campo | Descripción |
+| :--- | :--- |
+| **Rol laboral** | Jubilada, era profesora. |
+| **Competencias digitales previas** | Bajas-medias. Usa WhatsApp y videollamadas, pero se pierde con menús con mucha información o letra pequeña. |
+| **Entorno de uso habitual** | Tablet en casa y móvil durante el viaje. |
+| **Objetivos principales** | Encontrar alojamientos accesibles dentro de su presupuesto y un itinerario con ritmo tranquilo. |
+
+---
+
 **2. Análisis de la necesidad**
 
 **2.1 ¿Qué deben hacer y aportar? Diagnóstico de la situación de partida (As-Is)**
@@ -68,6 +176,20 @@ Enviar mensajes a cada huésped al instante. Mantén una comunicación fluida y 
 
 
 REFERENCIAS:
+
+### Referencias
+
+- [1] M. Pérez, "¿Qué es Traveltech? Tecnología para el turismo," *Smartvel Blog*, 19-jul-2024. [En línea]. Disponible en: https://www.smartvel.com/es/resources/blog-es/que-es-traveltech-tecnologia-para-el-turismo. [Accedido: 24-oct-2026].
+- [2] Ministerio de Industria y Turismo, "Datos de Frontur y Egatur del INE. Diciembre 2025," *Nota de prensa*, 03-feb-2026. [En línea]. Disponible en: https://www.mintur.gob.es/es-es/gabineteprensa/notasprensa/2026/documents/20260203%20ndp%20frontur%20egatur%20diciembre.pdf. [Accedido: 28-oct-2026].
+- [3] Europa Press, "El turismo español estabiliza su crecimiento en 2025 y aporta 218.459 millones, un 2,5% más, según Exceltur," *Forbes España*, 2026. [En línea]. Disponible en: https://forbes.es/economia/855986/el-turismo-espanol-estabiliza-su-crecimiento-en-2025-y-aporta-218-459-millones-un-25-mas-segun-exceltur/. [Accedido: 28-oct-2026].
+- [4] Europa Press, "Un 40% de los españoles planea gastar más en sus viajes en 2025, según Booking," *Forbes España*, 2025. [En línea]. Disponible en: https://forbes.es/economia/754614/un-40-de-los-espanoles-planea-gastar-mas-en-sus-viajes-en-2025-segun-booking/. [Accedido: 29-oct-2026].
+- [5] Cámara de Comercio de Sevilla, "Turismo: informe de tendencias digitales 2025," *TIC Negocios*, jul. 2025. [En línea]. Disponible en: https://ticnegocios.camaradesevilla.com/wp-content/uploads/2025/07/TURISMO_Informe_tendencias_digitales_2025_web.pdf. [Accedido: 30-oct-2026].
+- [6] Funds Society, "Los españoles gastaremos 2.070 euros de media en vacaciones de verano," *Funds Society*. [En línea]. Disponible en: https://www.fundssociety.com/es/estilo/espanoles-gastaremos-2070-euros-de-media-en-vacaciones-de-verano/. [Accedido: 30-oct-2026].
+- [7] Gestoría 247, "CNAE-2025. División 79: Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas (RD 10/2025)." [En línea]. Disponible en: https://gestoria247.com/herramientas/conversor-iae-cnae/cnae-division-79-actividades-de-agencias-de-viajes-operadores. [Accedido: 2-nov-2026].
+- [8] Instituto Nacional de Estadística (INE), "Cuenta Satélite del Turismo de España. Serie 2021-2024," *Nota de prensa*, 22-dic-2025. [En línea]. Disponible en: https://www.ine.es/dyngs/Prensa/CSTE2024.htm. [Accedido: 2-nov-2026].
+- [9] Forbes España, "Solo el 11% de los españoles elige su destino de viaje en función de la conexión a Internet," *Forbes España*, 2026. [En línea]. Disponible en: https://forbes.es/economia/902067/solo-el-11-de-los-espanoles-elige-su-destino-de-viaje-en-funcion-de-la-conexion-a-internet/. [Accedido: 4-nov-2026].
+
+
 
 [1] Booking.com, «La Extranet», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/extranet [Accedido: 22-oct-2026].
 [2] Booking.com, «La aplicación Pulse», Booking.com Partner Hub. [En línea]. Disponible en: https://partner.booking.com/es/soluciones/aplicaci%C3%B3n-pulse [Accedido: 22-oct-2026].
