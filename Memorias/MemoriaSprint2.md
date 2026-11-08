@@ -364,7 +364,98 @@ Por último, la app incluirá un filtro de accesibilidad para mostrar solo aloja
 - Normas de Google Play y App Store: para publicar la app hay que rellenar la sección de seguridad de datos (Google Play) y las "etiquetas de privacidad" (App Store), indicando qué datos recoge la app y para qué.
 
 ---
+## 8. Aportación Documental 
 
+## 8.1. Obstáculos técnicos
+
+### Integración inestable con APIs de terceros (Aerolíneas)
+Las APIs de proveedores aéreos, motores de búsqueda o pasarelas de pago pueden sufrir caídas, límites de peticiones o cambios repentinos en sus esquemas de datos.
+
+* **Impacto:** Alto. Esto puede dejar a la app sin buscador de vuelos o mostrar precios desactualizados.
+* **Respuesta preventiva:** 
+  * Implementar un sistema de caché inteligente para consultas frecuentes.
+  * Diseñar una arquitectura multi-proveedor para cambiar de API si la principal falla.
+* **Respuesta correctiva:** Activar un modo de degradación graciosa que avise al usuario del error temporal e intente reintentos automáticos en segundo plano.
+
+### Sincronización en tiempo real y offline de itinerarios
+Los usuarios necesitan revisar sus billetes o cambios de puerta de embarque sin conexión a internet en aeropuertos.
+
+* **Impacto:** Medio - Alto. Frustra a los viajeros que lleguen tarde o tengan prisa ya que no pueden ver sus billetes.
+* **Respuesta preventiva:** Diseñar una arquitectura *offline-first* utilizando bases de datos locales en el dispositivo que se sincronicen en segundo plano.
+* **Respuesta correctiva:** Permitir al usuario descargar el itinerario junto al billete en formato PDF.
+
+### Gestión de datos masivos y alta concurrencia
+Picos de tráfico masivos al buscar vuelos en temporadas altas o festivos.
+
+* **Impacto:** Alto. Puede provocar la caída del servidor y dejar sin servicio a aquellos que ya han comprado un billete.
+* **Respuesta preventiva:** Escalamiento automático en la nube y pruebas de estrés previas al lanzamiento.
+* **Respuesta correctiva:** Implementar colas de espera virtuales para la búsqueda si el tráfico supera la capacidad del servidor.
+
+---
+
+## 8.2. Obstáculos de planificación
+
+### Crecimiento descontrolado del alcance (Scope creep)
+Añadir funciones sobre la marcha sin ampliar plazos ni presupuestos.
+
+* **Impacto:** Alto. Retrasa el lanzamiento y agota los recursos financieros.
+* **Respuesta preventiva:** Fijar un MVP (Producto Mínimo Viable) estricto y congelar las nuevas ideas para una versión 2.0.
+* **Respuesta correctiva:** Aplicar un control de cambios formal: si entra una nueva función, una de igual peso debe salir o posponerse.
+
+### Plazos y cronogramas irreales
+Subestimar el tiempo necesario para las auditorías de seguridad, certificaciones de pago o cumplimiento normativo de seguridad.
+
+* **Impacto:** Alto. Bloqueo legal en las tiendas de aplicaciones (Google Play / App Store).
+* **Respuesta preventiva:** Añadir espacios de tiempo (*buffer*) en el cronograma para validaciones legales y de cumplimiento.
+* **Respuesta correctiva:** Reasignar prioridades de desarrollo para separar los módulos con requisitos regulatorios estrictos de los puramente visuales.
+
+---
+
+## 8.3. Obstáculos operativos
+
+### Cumplimiento normativo y regulaciones de aviación/datos
+Manejo de datos sensibles, pasaportes y pagos internacionales bajo normativas cambiantes de protección de datos o comisiones bancarias.
+
+* **Impacto:** Crítico. Multas económicas severas o retirada de la app en las tiendas digitales.
+* **Respuesta preventiva:** Asesoría legal temprana y uso de pasarelas de pago certificadas que deleguen el almacenamiento de datos bancarios.
+* **Respuesta correctiva:** Parar temporalmente la funcionalidad afectada por el vacío legal y emitir un parche de actualización urgente.
+
+### Atención al cliente y gestión de incidencias en viajes
+Un usuario con un vuelo cancelado por la aerolínea reclamará a la aplicación, asumiendo que esta es la aerolínea.
+
+* **Impacto:** Medio. Sobrecarga operativa y malas reseñas en las tiendas de apps.
+* **Respuesta preventiva:** Dejar explícitos en los términos y condiciones los roles de intermediario y automatizar chatbots de FAQ para incidencias comunes.
+* **Respuesta correctiva:** Escalar el equipo de soporte temporalmente o integrar un centro de ayuda guiado con enlaces directos al contacto de cada aerolínea.
+
+---
+
+## 8.4. Obstáculos de equipo
+
+### Falta de perfiles especializados en el sector turístico/aeronáutica
+Desarrolladores que desconocen estándares de la industria aérea.
+
+* **Impacto:** Medio - Alto. Errores lógicos en cálculos de escalas, fechas de llegada cruzando líneas de tiempo o zonas horarias.
+* **Respuesta preventiva:** Incorporar un consultor o analista funcional con experiencia previa en el sector de viajes.
+* **Respuesta correctiva:** Realizar sesiones intensivas de capacitación técnica y auditorías de código enfocadas en lógica temporal y de fechas.
+
+### Rotación de personal clave o cuellos de botella
+Pérdida del programador principal que conocía la conexión específica con las pasarelas de reserva.
+
+* **Impacto:** Alto. Paralización del desarrollo.
+* **Respuesta preventiva:** Documentación obligatoria del código y prácticas de programación en pareja (*pair programming*).
+* **Respuesta correctiva:** Iniciar un proceso de *onboarding* acelerado y repartir el conocimiento crítico entre los miembros restantes del equipo de ingeniería.
+
+---
+
+## Matriz de riesgos y contingencias
+
+| Riesgo | Probabilidad | Acción preventiva (Evitar) | Plan de contingencia (Realizar) |
+| :--- | :---: | :--- | :--- |
+| **Caída o desconexión de la API proveedora de vuelos** | Alta | Implementar contratos de nivel de servicio (SLA) exigentes con el proveedor y diseñar una arquitectura de software desacoplada. | Activar un sistema de *circuit breaker* que redirija las peticiones a un proveedor secundario o, en su defecto, mostrar la última caché guardada con un aviso al usuario. |
+| **Desfase en cambios de última hora** | Alta | Configurar *webhooks* dinámicos o *polling* de alta frecuencia en las horas cercanas a los vuelos monitorizados. | Enviar una notificación *push* urgente disculpándose por el desfase y ofrecer un botón de actualización manual forzada conectando directo a la web de la aerolínea. |
+| **Pérdida de reservas por errores en la sincronización del inventario de asientos** | Media | Implementar un sistema de "bloqueo temporal" de asientos durante el flujo de pago que dure un máximo de 10 minutos. | Reembolsar el dinero inmediatamente al usuario, emitir un cupón de compensación y ofrecer alternativas de vuelos similares de forma automatizada. |
+| **Confusión del usuario por cambios de zona horaria** | Media | Diseñar la interfaz gráfica mostrando siempre tanto la hora local de origen como la hora local de destino, señalando explícitamente si el vuelo aterriza al día siguiente. | Proveer soporte de chat prioritario para resolver dudas de horario y, en casos de error genuino, gestionar cambios de vuelo sin cargo. |
+| **Rechazo de la aplicación en App Store / Play Store por manejo de datos sensibles** | Baja | Realizar auditorías de privacidad previas al envío, encriptar datos de extremo a extremo y solicitar validaciones anticipadas. | Solicitar revisión acelerada detallando correcciones, priorizando la versión web como alternativa temporal. |
 
 ## Referencias
 
