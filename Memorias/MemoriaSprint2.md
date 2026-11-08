@@ -806,7 +806,6 @@ Pérdida del programador principal que conocía la conexión específica con las
 - [22] Booking.com Hub, «Search, Look, Redirect Application Flow», *Booking.com Demand API Docs*. [En línea]. Disponible en: https://developers.booking.com/demand/docs/development-guide/application-flows/search-look-redirect. 
 - [23] Google Developers, «Documentación oficial de Cloud Firestore», *Google Firebase*. [En línea]. Disponible en: https://firebase.google.com/docs/firestore?hl=es-419.
 - [24] Google Maps Platform, «Places API (New) Overview», *Google Developers*. [En línea]. Disponible en: https://developers.google.com/maps/documentation/places/web-service/overview.
-- 
 - [25]Ministerio de Trabajo y Economía Social, «Resolución por la que se publica el XVII Convenio colectivo estatal de empresas de consultoría, tecnologías de la información y estudios de mercado», BOE, n.º 127, mayo 2023.
 - [26] ICAC, Real Decreto 1514/2007, por el que se aprueba el Plan General de Contabilidad. BOE, 2007, Norma de Registro y Valoración 2.ª.
 - [27] Google Cloud Platform, «Google Maps Platform Pricing and Free Tier Credit Documentation», 2026.
