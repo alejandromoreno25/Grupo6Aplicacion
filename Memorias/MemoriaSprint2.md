@@ -515,17 +515,6 @@ Tras analizar de forma minuciosa la estimación de costes de personal, el desgas
 3. **Sostenibilidad a Largo Plazo:** La inclusión del plan de mantenimiento post-despliegue (435,00 €) [25] y el margen de contingencias del 10% aseguran la capacidad de resolver incidencias y actualizar dependencias sin comprometer la continuidad.
 
 ---
-
-### Referencias
-
-- **[25]** Ministerio de Trabajo y Economía Social, «Resolución por la que se publica el XVII Convenio colectivo estatal de empresas de consultoría, tecnologías de la información y estudios de mercado», BOE, n.º 127, mayo 2023.
-- **[26]** ICAC, Real Decreto 1514/2007, por el que se aprueba el Plan General de Contabilidad. BOE, 2007, Norma de Registro y Valoración 2.ª.
-- **[27]** Google Cloud Platform, «Google Maps Platform Pricing and Free Tier Credit Documentation», 2026.
-- **[28]** Firebase Documentation, «Firebase Spark and Blaze Pricing Plans: Cloud Firestore Limits», 2026.
-- **[29]** Booking.com Partner Hub, «Booking.com Affiliate Partner Program Terms and Integration Flows», 2026.
-- **[30]** Apple Developer Support, «Apple Developer Program Membership Fee and Account Guidelines», 2026.
-- **[31]** Google Play Console Help, «How to sign up for a Google Play developer account and registration fee», 2026.
-- **[32]** REE / OMIE, «Informe de PVPC y precio medio ponderado del kWh del mercado minorista en España», ESIOS REE, oct. 2026.
   
 ## 7. Estudio de Viabilidad Legal y Normativa
 
@@ -817,3 +806,12 @@ Pérdida del programador principal que conocía la conexión específica con las
 - [22] Booking.com Hub, «Search, Look, Redirect Application Flow», *Booking.com Demand API Docs*. [En línea]. Disponible en: https://developers.booking.com/demand/docs/development-guide/application-flows/search-look-redirect. 
 - [23] Google Developers, «Documentación oficial de Cloud Firestore», *Google Firebase*. [En línea]. Disponible en: https://firebase.google.com/docs/firestore?hl=es-419.
 - [24] Google Maps Platform, «Places API (New) Overview», *Google Developers*. [En línea]. Disponible en: https://developers.google.com/maps/documentation/places/web-service/overview.
+- 
+- [25]Ministerio de Trabajo y Economía Social, «Resolución por la que se publica el XVII Convenio colectivo estatal de empresas de consultoría, tecnologías de la información y estudios de mercado», BOE, n.º 127, mayo 2023.
+- [26] ICAC, Real Decreto 1514/2007, por el que se aprueba el Plan General de Contabilidad. BOE, 2007, Norma de Registro y Valoración 2.ª.
+- [27] Google Cloud Platform, «Google Maps Platform Pricing and Free Tier Credit Documentation», 2026.
+- [28] Firebase Documentation, «Firebase Spark and Blaze Pricing Plans: Cloud Firestore Limits», 2026.
+- [29] Booking.com Partner Hub, «Booking.com Affiliate Partner Program Terms and Integration Flows», 2026.
+- [30] Apple Developer Support, «Apple Developer Program Membership Fee and Account Guidelines», 2026.
+- [31] Google Play Console Help, «How to sign up for a Google Play developer account and registration fee», 2026.
+- [32] REE / OMIE, «Informe de PVPC y precio medio ponderado del kWh del mercado minorista en España», ESIOS REE, oct. 2026.
