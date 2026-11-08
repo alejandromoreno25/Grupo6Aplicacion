@@ -15,5 +15,5 @@
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100%|
 | Víctor Pérez Martínez ||
-| Lucas Moreno Bravo ||
+| Lucas Moreno Bravo | 100% |
 
