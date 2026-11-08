@@ -364,7 +364,120 @@ Sin ser expertos en estas herramientas, pero habiendo investigado sobre ellas he
 
 Tras analizar profundamente cada punto de la viabilidad técnica y planificar adecuadamente la curva de aprendizaje del equipo, se concluye que el proyecto **LazyTrip ES TÉCNICAMENTE VIABLE** [16], [17]. El ecosistema tecnológico seleccionado garantiza la interoperabilidad entre los clientes de escritorio y móvil, optimiza el consumo de datos mediante llamadas eficientes a las APIs de terceros y permite empaquetar, probar y desplegar la solución dentro de los plazos académicos establecidos [18], [19].
 
+## 6. Memoria de Viabilidad Económica: Proyecto Lazy Trip
+
+**Proyecto:** Lazy Trip - Planificador Multiplataforma de Itinerarios de Viaje  
+**Ámbito:** Proyecto Académico - 2.º de DAM (Desarrollo de Aplicaciones Multiplataforma)  
+**Fecha de Evaluación:** Noviembre de 2026  
+
 ---
+
+## 6.2 Estimación de Costes y Recursos Financieros
+
+### 6.2.1 Costes Directos de Personal y Desarrollo
+1. **Perfil Profesional del Equipo**
+   El equipo está formado por 5 desarrolladores desempeñando el rol de Analistas-Programadores Júniores (Estudiantes de 2.º de DAM). Las tareas asumidas abarcan la toma de requisitos, el modelado NoSQL en Cloud Firestore, el desarrollo de la versión de escritorio en Java Swing con FlatLaf, la construcción del cliente móvil en Flutter/Dart, la integración de APIs externas, el diseño de informes PDF y la batería de pruebas de software.
+
+2. **Determinación de la Carga Horaria Total**
+   El periodo lectivo intensivo de trabajo abarca desde el 6 de noviembre hasta el 20 de febrero (un total estimado de 15 semanas activas). Se establece una dedicación regular de 15 horas semanales por miembro entre horas lectivas, trabajo de laboratorio y autoformación:
+   * Horas totales por miembro: $15 \text{ semanas} \times 15 \text{ h/semana} = 225 \text{ horas/alumno}$
+   * Carga horaria global del equipo: $5 \text{ miembros} \times 225 \text{ h} = 1.125 \text{ horas totales}$
+
+3. **Tarifa Horaria Oficial y Coste de Mano de Obra**
+   De acuerdo con el XVII Convenio Colectivo Estatal de Empresas de Consultoría, Tecnologías de la Información y Estudios de Mercado (BOE) [1], la categoría salarial de entrada (Programador Júnior / Técnico Grupo III) fija un salario base bruto que, sumado a las aportaciones obligatorias a la Seguridad Social a cargo de la empresa (aprox. 30%-32%), establece el coste hora ponderado en 14,50 € / hora:
+   * Coste Total de Personal: $1.125 \text{ horas} \times 14,50 \text{ \euro/h} = 16.312,50 \text{ \euro}$
+
+### 6.2.2 Costes de Infraestructura, Licencias y Servicios
+1. **Amortización del Hardware de Desarrollo**
+   Para el desarrollo de la aplicación se ha utilizado un equipo informático de gama media-alta con las siguientes especificaciones: Procesador Intel Core i5 12.ª Gen, 16 GB de RAM, Intel UHD Graphics 770 y 400 GB SSD, con un valor de mercado inicial de 1.100,00 €.
+   Siguiendo las directrices del Plan General de Contabilidad (PGC) [2] y el método lineal de amortización para equipos para procesos de información (vida útil estimada de 3 años / 36 meses):
+   * Cuota de Amortización Mensual: $1.100,00 \text{ \euro} / 36 \text{ meses} = 30,56 \text{ \euro/mes}$
+   * Amortización Imputada (3,5 meses): $30,56 \text{ \euro/mes} \times 3,5 \text{ meses} = 106,96 \text{ \euro}$
+
+2. **Servicios Cloud y Consumo de APIs**
+   * **Firebase Cloud Firestore (BaaS):** Funciona bajo el Spark Plan (Capa Gratuita), que otorga 50.000 lecturas y 20.000 escrituras diarias gratuitas [4]. Durante las pruebas y el desarrollo no se sobrepasan estos límites (Coste: 0,00 €).
+   * **Booking.com Demand API:** Integrada mediante el programa de afiliados ("Buscar, ver y redirigir") [5]. Su uso es totalmente gratuito y no aplica cuotas fijas (Coste: 0,00 €).
+   * **Google Places & Google Maps Platform:** Se hace uso del crédito mensual gratuito concedido por Google Cloud (\$200 USD/mes) [3], cubriendo la totalidad de las peticiones HTTP y renderizado de mapas interactivos durante la fase lectiva (Coste: 0,00 €).
+
+3. **Licencias Software y Cuentas de Desarrollador**
+   * **Entornos de Desarrollo y Librerías:** Apache NetBeans, Android Studio, SDK de Flutter, JDK 17, FlatLaf, Git/GitHub y JasperReports operan bajo licencias Open Source (Coste: 0,00 €).
+   * **Cuentas de Publicación en Tiendas Oficiales:**
+     * Google Play Console (Android): Registro de desarrollador con tarifa única de \$25 USD (aprox. 23,00 €) [7].
+     * Apple Developer Program (iOS): Suscripción anual de \$99 USD (aprox. 92,00 €) [6].
+   * Subtotal Licencias y Tiendas: $23,00 \text{ \euro} + 92,00 \text{ \euro} = 115,00 \text{ \euro}$
+
+### 6.2.3 Costes Indirectos y Sostenibilidad Operativa
+1. **Consumo Eléctrico Justificado**
+   Un equipo de sobremesa estándar para desarrollo de software con procesador Intel i5 y monitor de trabajo presenta un consumo energético medio estimado de 250 W (0,25 kW) en plena carga operativa.
+   * Consumo Energético Total: $1.125 \text{ horas} \times 0,25 \text{ kW} = 281,25 \text{ kWh}$
+   
+   De acuerdo con el informe oficial de la plataforma ESIOS de Red Eléctrica de España (REE) [8], tomando la tarifa media ponderada que contempla energía, peajes e IVA (21%):
+   * Coste Eléctrico Base Imponible: $281,25 \text{ kWh} \times 0,1653 \text{ \euro/kWh} = 46,48 \text{ \euro}$
+   * Coste Eléctrico Total (0,20 €/kWh con IVA): $281,25 \text{ kWh} \times 0,20 \text{ \euro/kWh} = 56,25 \text{ \euro}$
+
+2. **Conectividad a Internet**
+   Se imputa la cuota proporcional de una conexión de fibra óptica residencial (estimada en 30,00 €/mes) utilizada durante los 3,5 meses de desarrollo para la sincronización con Firebase y consumo de APIs de terceros:
+   * Coste de Conectividad: $30,00 \text{ \euro/mes} \times 3,5 \text{ meses} = 105,00 \text{ \euro}$
+
+3. **Mantenimiento y Soporte Post-Despliegue**
+   Se planifica un servicio de soporte preventivo y correctivo post-entrega estimado en 5 horas mensuales durante los primeros 6 meses tras el lanzamiento [1]:
+   * Coste Mantenimiento: $(5 \text{ h/mes} \times 6 \text{ meses}) \times 14,50 \text{ \euro/h} = 435,00 \text{ \euro}$
+
+---
+
+## 6.3 Aportación Documental y Conclusión (Dictamen Financiero)
+
+### 6.3.1 Presupuesto Desglosado del Proyecto (Cuadro Financiero)
+
+| Partida Presupuestaria | Concepto / Detalle Técnico | Base Imponible (€) | IVA / Impuestos | Importe Total (€) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Personal y Desarrollo** | 1.125 horas de desarrollo júnior (5 miembros x 225 h) @ 14,50 €/h [1] | 16.312,50 € | Incluido en coste bruto | 16.312,50 € |
+| **2. Equipamiento y Hardware** | Amortización lineal PC i5 12.ª Gen (1.100 € en 36 meses, uso 3,5 meses) [2] | 106,96 € | 21% IVA | 129,42 € |
+| **3. Licencias y Plataformas** | Cuentas de desarrollador (Google Play Console 23 € [7] + Apple Developer 92 € [6]) | 115,00 € | Exento / N/A | 115,00 € |
+| **4. Servicios Cloud y APIs** | Firebase Cloud Firestore (Spark Plan [4]), Google Places/Maps API (\$200 credit [3]), Booking API [5] | 0,00 € | N/A | 0,00 € |
+| **5. Consumo Eléctrico** | 281,25 kWh consumidos ($250 \text{ W} \times 1.125 \text{ h}$) @ 0,20 €/kWh [8] | 46,48 € | 21% IVA | 56,25 € |
+| **6. Conectividad a Internet** | Fibra óptica residencial ($30 \text{ \euro/mes} \times 3,5 \text{ meses}$) | 105,00 € | 21% IVA | 127,05 € |
+| **7. Mantenimiento Post-Despliegue**| Plan de soporte preventivo/correctivo ($5 \text{ h/mes} \times 6 \text{ meses}$ @ 14,50 €/h [1]) | 435,00 € | N/A (Mano de obra) | 435,00 € |
+| **SUBTOTAL BASE IMPONIBLE** | Sumatorio de partidas directas e indirectas | **17.120,94 €** | | |
+| **Contingencias e Imprevistos (10%)** | Margen de desviación para riesgos operativos, reajustes técnicos o desviaciones | **1.712,09 €** | | **1.712,09 €** |
+| **PRESUPUESTO TOTAL ESTIMADO** | Inversión global requerida para la puesta en marcha | | | **18.887,31 €** |
+
+### 6.3.2 Análisis de Retorno de la Inversión (ROI) y Ahorro Operativo
+1. **Estimación de Ahorro de Costes Operativos**
+   La adopción de una arquitectura Backend as a Service (BaaS) con Firebase Cloud Firestore frente a una infraestructura clásica basada en servidores VPS dedicados representa un ahorro sustancial [4]:
+   * **Ahorro en Servidores y Mantenimiento:** Elimina el alquiler mensual de servidores (estimado en 40 €/mes) y la carga de administración de sistemas (aprox. 10 h/mes), suponiendo un ahorro de ~2.200 € anuales [1], [4].
+   * **Escalabilidad Cero-Coste Inicial:** Las capas gratuitas permiten no incurrir en costes fijos mensuales antes de alcanzar masa crítica [3], [4].
+
+2. **Vías de Ingreso y Retorno de la Inversión (ROI)**
+   El modelo de negocio se sostiene mediante el Programa de Afiliados de Booking.com [5]:
+   * Ingreso neto aproximado de entre el 3% y el 5% del valor total de la reserva [5].
+   * Con un valor medio de reserva de 400 € y un retorno neto estimado de 15 € por reserva, alcanzando un volumen de 105 reservas mensuales, la aplicación generaría unos ingresos brutos anuales de ~18.900 €, alcanzando el umbral de rentabilidad (Break-Even) y recuperando la inversión del desarrollo durante el Año 1 de explotación [1], [5].
+
+### 6.3.3 Dictamen Final de Viabilidad Económica
+
+Tras analizar de forma minuciosa la estimación de costes de personal, el desgaste del hardware, los servicios cloud, los consumos indirectos y la previsión de mantenimiento frente a la capacidad de financiación del proyecto:
+
+**DICTAMEN: SÍ ES ECONÓMICAMENTE VIABLE** desarrollar, implantar, mantener y operar la solución Lazy Trip.
+
+**Fundamentación del Dictamen:**
+1. **Control del Desembolso Real:** El gasto real desembolsable (Cash-Out) se limita a las licencias de publicación en las tiendas (115,00 €) [6], [7] y a la cuota marginal de suministros [8], ya que el coste principal de personal (16.312,50 €) se asume como trabajo propio dentro del ciclo formativo [1].
+2. **Mínimo Riesgo Financiero:** El uso de servicios serverless a coste 0 € garantiza que el proyecto no soporte cuotas fijas mensuales de mantenimiento tras el despliegue [3], [4], [5].
+3. **Sostenibilidad a Largo Plazo:** La inclusión del plan de mantenimiento post-despliegue (435,00 €) [1] y el margen de contingencias del 10% aseguran la capacidad de resolver incidencias y actualizar dependencias sin comprometer la continuidad.
+
+---
+
+### Referencias
+
+* **[1]** Ministerio de Trabajo y Economía Social, «Resolución por la que se publica el XVII Convenio colectivo estatal de empresas de consultoría, tecnologías de la información y estudios de mercado», BOE, n.º 127, mayo 2023.
+* **[2]** ICAC, Real Decreto 1514/2007, por el que se aprueba el Plan General de Contabilidad. BOE, 2007, Norma de Registro y Valoración 2.ª.
+* **[3]** Google Cloud Platform, «Google Maps Platform Pricing and Free Tier Credit Documentation», 2026.
+* **[4]** Firebase Documentation, «Firebase Spark and Blaze Pricing Plans: Cloud Firestore Limits», 2026.
+* **[5]** Booking.com Partner Hub, «Booking.com Affiliate Partner Program Terms and Integration Flows», 2026.
+* **[6]** Apple Developer Support, «Apple Developer Program Membership Fee and Account Guidelines», 2026.
+* **[7]** Google Play Console Help, «How to sign up for a Google Play developer account and registration fee», 2026.
+* **[8]** REE / OMIE, «Informe de PVPC y precio medio ponderado del kWh del mercado minorista en España», ESIOS REE, oct. 2026.
+
+  
 ## 7. Estudio de Viabilidad Legal y Normativa
 
 ### 7.1 Marco Legal, Normativo y de Gobernanza
