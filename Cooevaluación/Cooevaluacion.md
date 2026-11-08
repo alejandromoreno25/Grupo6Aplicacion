@@ -13,7 +13,7 @@
 | :--- | :---: |
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera ||
-| Joaquin Torrubia Oria ||
+| Joaquin Torrubia Oria | 100 %|
 | Víctor Pérez Martínez ||
 | Lucas Moreno Bravo ||
 
