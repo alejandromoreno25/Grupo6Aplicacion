@@ -174,6 +174,65 @@ Recibir alertas en tiempo real. No vuelvas a pasar por alto ninguna reserva ni c
 Supervisar el rendimiento. Accede a información clave para hacer crecer tu negocio.
 Enviar mensajes a cada huésped al instante. Mantén una comunicación fluida y disfruta de tiempos de respuesta rápidos.
 
+---
+
+**7.3 Accesibilidad y otros requisitos aplicables**
+
+**7.3.1 ¿Qué debemos hacer?**
+
+Conseguir que LazyTrip pueda usarla el mayor número de personas posible, incluidas las personas con alguna limitación visual, auditiva o motriz. Además de ser uno de nuestros objetivos, es una obligación legal: la Ley 11/2023, que traslada a España la Directiva Europea de Accesibilidad (Directiva UE 2019/882), exige desde el 28 de junio de 2025 que los nuevos productos y servicios digitales, incluidas las aplicaciones móviles, cumplan requisitos de accesibilidad [10].
+
+**7.3.2 ¿Qué aportamos?**
+
+**7.3.2.1 Principios de accesibilidad adoptados**
+
+Seguimos dos referencias:
+
+- WCAG 2.2, nivel AA [11]. Aunque se llaman "web", sus principios se aplican también a apps. Se basan en cuatro principios: que el contenido sea perceptible, operable, comprensible y robusto.
+- Norma UNE-EN 301 549, que es la norma europea con los requisitos de accesibilidad para productos y servicios TIC y la que se usa como referencia para cumplir la ley [12].
+
+**7.3.2.2 Decisiones en la interfaz**
+
+Para que LazyTrip sea accesible, hemos tomado varias decisiones de diseño basadas en las WCAG 2.2 y en la norma UNE-EN 301 549.
+
+En primer lugar, cuidamos el contraste de color. Todos los textos tendrán un contraste mínimo de 4,5:1 con el fondo (3:1 en los textos grandes), que es lo que pide el nivel AA de las WCAG. Para asegurarnos, comprobaremos la paleta de colores con un verificador de contraste.
+
+También hemos tenido en cuenta el tamaño de la letra. La app respeta el tamaño de letra que el usuario tenga configurado en su móvil, y probaremos las pantallas con la letra al 200% para comprobar que no se corta ningún texto. Esto está pensado sobre todo para usuarios como Carmen, nuestra usuaria sénior.
+
+Los botones serán grandes, con una zona táctil de al menos 48 × 48 dp, como recomienda Material Design, para que se puedan pulsar con facilidad.
+
+Para las personas con discapacidad visual, la app será compatible con los lectores de pantalla TalkBack (Android) y VoiceOver (iOS). Para ello usaremos el widget Semantics de Flutter, que permite que el lector describa correctamente los botones, los iconos y las imágenes. Además, todas las fotos e iconos tendrán un texto alternativo.
+
+En la versión de escritorio, la app se podrá usar solo con el teclado. El orden de tabulación será lógico y siempre se verá qué elemento está seleccionado, gracias a FocusTraversalGroup de Flutter.
+
+Otra decisión importante es no depender solo del color para transmitir información. Por ejemplo, si el usuario se pasa del presupuesto, la app no solo lo marcará en rojo, sino que también mostrará un texto o un icono que lo indique.
+
+En cuanto a los textos, usaremos un lenguaje sencillo, con frases cortas y sin tecnicismos, y el usuario podrá crear un viaje en tres pasos como máximo.
+
+Por último, la app incluirá un filtro de accesibilidad para mostrar solo alojamientos accesibles y una opción de itinerario con "ritmo tranquilo", pensada para personas con movilidad reducida.
+
+**7.3.2.3 Otras normas aplicables**
+
+- Ley 34/2002 de Servicios de la Sociedad de la Información [13]: obliga a informar de quién es el responsable de la app, datos identificativos y contacto, y regula el uso de cookies y tecnologías de rastreo, y también los enlaces de afiliados de carácter comercial.
+- Normas de Google Play y App Store: para publicar la app hay que rellenar la sección de seguridad de datos (Google Play) y las "etiquetas de privacidad" (App Store), indicando qué datos recoge la app y para qué.
+
+---
+
+**Referencias**
+
+[10] Jefatura del Estado, "Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios," *Boletín Oficial del Estado*, núm. 110, 9 may. 2023. [En línea]. Disponible en: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11022. [Accedido: 3 nov. 2026].
+
+[11] W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," *W3C Recommendation*, 5 oct. 2023. [En línea]. Disponible en: https://www.w3.org/TR/WCAG22/. [Accedido: 3 nov. 2026].
+
+[12] AENOR, *UNE-EN 301549:2019. Requisitos de accesibilidad para productos y servicios TIC*. Madrid, España: AENOR, 2019. [En línea]. Disponible en: https://www.defensa.gob.es/invied/va/Galerias/ficheros/general/ACC_Norma-UNE-EN-301549-2019-OAW.pdf. [Accedido: 4 nov. 2026].
+
+[13] Jefatura del Estado, "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico," *Boletín Oficial del Estado*, núm. 166, 12 jul. 2002. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758. [Accedido: 5 nov. 2026].
+
+
+
+
+
+
 
 REFERENCIAS:
 
@@ -188,6 +247,10 @@ REFERENCIAS:
 - [7] Gestoría 247, "CNAE-2025. División 79: Actividades de agencias de viajes, operadores turísticos, servicios de reservas y actividades relacionadas (RD 10/2025)." [En línea]. Disponible en: https://gestoria247.com/herramientas/conversor-iae-cnae/cnae-division-79-actividades-de-agencias-de-viajes-operadores. [Accedido: 2-nov-2026].
 - [8] Instituto Nacional de Estadística (INE), "Cuenta Satélite del Turismo de España. Serie 2021-2024," *Nota de prensa*, 22-dic-2025. [En línea]. Disponible en: https://www.ine.es/dyngs/Prensa/CSTE2024.htm. [Accedido: 2-nov-2026].
 - [9] Forbes España, "Solo el 11% de los españoles elige su destino de viaje en función de la conexión a Internet," *Forbes España*, 2026. [En línea]. Disponible en: https://forbes.es/economia/902067/solo-el-11-de-los-espanoles-elige-su-destino-de-viaje-en-funcion-de-la-conexion-a-internet/. [Accedido: 4-nov-2026].
+- [10] Jefatura del Estado, "Ley 11/2023, de 8 de mayo, de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios," *Boletín Oficial del Estado*, núm. 110, 9 may. 2023. [En línea]. Disponible en: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11022. [Accedido: 3 nov. 2026].
+- [11] W3C, "Web Content Accessibility Guidelines (WCAG) 2.2," *W3C Recommendation*, 5 oct. 2023. [En línea]. Disponible en: https://www.w3.org/TR/WCAG22/. [Accedido: 3 nov. 2026].
+- [12] AENOR, *UNE-EN 301549:2019. Requisitos de accesibilidad para productos y servicios TIC*. Madrid, España: AENOR, 2019. [En línea]. Disponible en: https://www.defensa.gob.es/invied/va/Galerias/ficheros/general/ACC_Norma-UNE-EN-301549-2019-OAW.pdf. [Accedido: 4 nov. 2026].
+- [13] Jefatura del Estado, "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico," *Boletín Oficial del Estado*, núm. 166, 12 jul. 2002. [En línea]. Disponible en: https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758. [Accedido: 5 nov. 2026].
 
 
 
