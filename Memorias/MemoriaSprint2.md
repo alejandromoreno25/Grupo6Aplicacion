@@ -403,6 +403,52 @@ Para LazyTrip, al ser una aplicación móvil que incluye enlaces a terceros para
    * Deben ser claramente identificables como publicidad (ej. incluir la palabra "Publicidad" o "Promo").
    * Deben contar con el consentimiento previo del usuario (salvo que exista una relación contractual previa para productos similares).
    * Se debe ofrecer un método sencillo y gratuito para darse de baja o desactivar las notificaciones promocionales en cualquier momento.
+  
+
+### 7.2 Propiedad Intelectual y Licencias de Software
+
+En el desarrollo de LazyTrip, la gestión de la propiedad intelectual (PI) y la selección de las licencias de software constituyen aspectos críticos. Estas determinan el marco legal aplicable tanto al código fuente y al diseño visual de la propia plataforma como a la integración de APIs de terceros (servicios cartográficos, datos turísticos), fuentes tipográficas, recursos iconográficos y bibliotecas de código abierto.
+
+A continuación, se detallan los aspectos normativos e instrumentales considerados para garantizar la protección del proyecto y el cumplimiento de la legalidad vigente en materia de PI y licencias:
+
+#### 1. Propiedad Intelectual del Software y la Interfaz (Derechos de Autor)
+
+En el marco legislativo de la Ley de Propiedad Intelectual (Real Decreto Legislativo 1/1996 en España):
+
+* **Protección del Código Fuente:** El código fuente original desarrollado para LazyTrip queda protegido automáticamente como obra literaria y técnica desde el momento de su creación.
+* **Diseño UX/UI y Elementos Gráficos:** La interfaz gráfica, la disposición de los menús e itinerarios, el logotipo, los esquemas cromáticos y los elementos visuales propios cuentan con la protección derivada de los derechos de autor y la normativa de diseño industrial.
+* **Depósito de la Obra:** Se contempla el registro del software en el Registro de la Propiedad Intelectual o el empleo de herramientas de sellado de tiempo y custodias de código para acreditar formalmente la autoría del equipo ante eventuales plagiarios o usos no autorizados.
+
+#### 2. Modelo de Licencia Aplicable a LazyTrip
+
+Según la estrategia de difusión del proyecto, se establece la naturaleza de la licencia aplicable a la plataforma:
+
+* **Licencia Propietaria (Copyright © - Todos los derechos reservados):** Esquema seleccionado cuando la aplicación opera bajo un modelo cerrado o comercial. El código fuente no se publica y los usuarios finales reciben una Licencia de Uso Final (EULA / TER) de carácter gratuito para instalar y utilizar la aplicación, sin facultades para modificar, descompilar o redistribuir la obra.
+* **Licencia Open Source (Código Abierto):** Opción considerada en caso de buscar la colaboración comunitaria. Puede articularse mediante licencias permisivas (MIT o Apache 2.0), que autorizan la reutilización del código citando la autoría original, o licencias *copyleft* (GNU GPLv3), que obligan a liberar bajo los mismos términos cualquier desarrollo derivado.
+
+#### 3. Licencias de Componentes y Librerías de Terceros
+
+La construcción de la plataforma móvil y de escritorio requiere la integración de bibliotecas de software libre (componentes de Flutter, Dart, Java y dependencias externas):
+
+* **Auditoría de Licencias:** Consiste en la verificación sistemática de los términos de licencia asociados a cada dependencia introducida en la pila tecnológica.
+* **Licencias Permisivas (MIT, BSD, Apache 2.0):** Compatibles con soluciones comerciales o propietarias. Exigen exclusivamente mantener la atribución del aviso de *copyright* original.
+* **Licencias Recíprocas / Copyleft (GPL):** Se excluye la inclusión de componentes distribuidos bajo licencias GPL en los módulos propietarios para evitar el efecto derivativo que obligaría a hacer público el código fuente global del sistema.
+
+#### 4. Propiedad Intelectual de Recursos Visuales y Tipográficos
+
+Con el objetivo de preservar la limpieza de la interfaz y la accesibilidad según la norma UNE-EN 301549:
+
+* **Fuentes Tipográficas:** Se garantiza que la tipografía empleada disponga de una licencia comercial válida o de código abierto (tales como las tipografías de Google Fonts bajo licencia OFL - *Open Font License*).
+* **Iconografía e Imágenes:** Los iconos y mapas auxiliares utilizan licencias libres de derechos orientadas a uso comercial (ej. Creative Commons CC BY 4.0, FontAwesome Free o repositorios con licencias específicas de distribución).
+
+#### 5. Uso de APIs de Terceros y Consumo de Datos Turísticos
+
+LazyTrip incorpora servicios cartográficos y de localización para enriquecer la experiencia de usuario:
+
+* **Términos de Servicio de APIs Cartográficas (Google Maps, Mapbox, OpenStreetMap):**
+  * Ante el uso de las APIs de Google Maps o Mapbox, se asumen sus condiciones de uso y la inclusión obligatoria de la atribución visual en pantalla.
+  * En caso de utilizar OpenStreetMap (OSM), los datos representados se regulan bajo la licencia ODbL (*Open Database License*), exigiendo la indicación expresa del aviso de atribución (*© OpenStreetMap contributors*).
+* **Redirección y Marcas de Terceros:** La integración de enlaces de afiliados hacia plataformas externas (como Booking.com o proveedores de actividades) respeta las condiciones de sus programas de socios, evitando la utilización de logotipos o marcas registradas que puedan inducir a confusión sobre la titularidad de LazyTrip.
 
 ## 7.3 Accesibilidad y otros requisitos aplicables
 
