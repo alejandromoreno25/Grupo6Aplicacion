@@ -340,7 +340,7 @@ En este proceso no solo se evalúa si la tecnología existe y está disponible a
 * **Conexión a Red:** Mínimo 5 Mbps para sincronización en tiempo real y llamadas a APIs.
 
 ##### Cliente Móvil
-* **Sistema Operativo:** Android 7.0 (minSDK 24) o iOS 12.0 / superior.
+* **Sistema Operativo:** Android 12.0 (minSDK 31) o iOS 17.0 / superior.
 * **Procesador:** 64 bits de 4 núcleos (Gama media/baja-media: Qualcomm Snapdragon serie 400, MediaTek Helio, Samsung Exynos o Apple A9 / superior).
 * **Memoria RAM:** 2 GB (Mínima) / 3 GB o superior (Recomendada).
 * **Almacenamiento:** Máximo 150 MB libres en almacenamiento interno (incluye el binario compilado `.apk` / `.ipa` y la caché local de Firestore).
