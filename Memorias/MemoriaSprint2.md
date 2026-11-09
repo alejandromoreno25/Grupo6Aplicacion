@@ -431,11 +431,11 @@ Cuando una empresa presenta un plan claro y viable, transmite seguridad y compro
 2. **Determinación de la Carga Horaria Total**
    El periodo lectivo intensivo de trabajo abarca desde el 6 de noviembre hasta el 20 de febrero (un total estimado de 15 semanas activas). Se establece una dedicación regular de 15 horas semanales por miembro entre horas lectivas, trabajo de laboratorio y autoformación:
    * Horas totales por miembro: $15 \text{ semanas} \times 15 \text{ h/semana} = 225 \text{ horas/alumno}$
-   * Carga horaria global del equipo: $5 \text{ miembros} \times 225 \text{ h} = 1.125 \text{ horas totales}$
+   * Carga horaria global del equipo: $5 \text{ miembros} \times 225 \text{ h} = 400 \text{ horas totales}$
 
 3. **Tarifa Horaria Oficial y Coste de Mano de Obra**
    De acuerdo con el XVII Convenio Colectivo Estatal de Empresas de Consultoría, Tecnologías de la Información y Estudios de Mercado (BOE) [25], la categoría salarial de entrada (Programador Júnior / Técnico Grupo III) fija un salario base bruto que, sumado a las aportaciones obligatorias a la Seguridad Social a cargo de la empresa (aprox. 30%-32%), establece el coste hora ponderado en 14,50 € / hora:
-   * Coste Total de Personal: $1.125 \text{ horas} \times 14,50 \text{ \euro/h} = 16.312,50 \text{ \euro}$
+   * Coste Total de Personal: $400 \text{ horas} \times 14,50 \text{ \euro/h} = 5.800 \text{ \euro}$
 
 ### 6.2.2 Costes de Infraestructura, Licencias y Servicios
 1. **Amortización del Hardware de Desarrollo**
