@@ -28,7 +28,7 @@
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100%|
-| Víctor Pérez Martínez | - |
+| Víctor Pérez Martínez | 60% |
 | Lucas Moreno Bravo | 80% |
 
 ## 1. INTRODUCCIÓN
