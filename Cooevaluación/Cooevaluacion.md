@@ -5,7 +5,7 @@
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera | 100% |
 | Joaquin Torrubia Oria | 100%|
-| Víctor Pérez Martínez | 80% |
+| Víctor Pérez Martínez | 70% |
 | Lucas Moreno Bravo | 80% |
 
 # Cooevaluación Sprint 2
@@ -14,6 +14,6 @@
 | Alejandro Moreno Luna | 100% |
 | Antonio Muñoz Herrera | 100% |
 | Joaquín Torrubia Oria | 95% |
-| Víctor Pérez Martínez | 100% |
+| Víctor Pérez Martínez | 60% |
 | Lucas Moreno Bravo | 100% |
 
