@@ -15,3 +15,6 @@ Hemos realizado una carpeta Memorias con las memorias de cada sprint junto una c
 
 ## Nuestro Logo: 
 Nuestro logo transmite la esencia y filosofía de **LazyTrip**: el perezoso en la hamaca simboliza la calma y el descanso de dejar la planificación en nuestras manos para viajar sin estrés; la maleta representa la preparación rápida y sin complicaciones; y el avión junto a la brújula en el fondo refleja el espíritu de aventura, exploración y la capacidad de la plataforma para guiarte hacia cualquier destino del mundo.
+
+## Nuestras Ramas: 
+Nuestras 2 ramas incluyen el proyecto de Flutter en el que se desarrolla la aplicación.
