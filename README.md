@@ -1,17 +1,20 @@
-# lazytrip_app
+<p align="center">
+  <img src="/assets/logoLazyTrip.png" alt="Logo LazyTrip" width="220"/>
+</p> 
 
-A new Flutter project.
+# ¿Qué es este Repositorio?
+Este repositorio está dedicado a la subida de archivos, documentación y memoria de nuestro proyecto de segundo de desarrollo de aplicaciones multiplataforma, sobre nuestra aplicación LazyTrip.
+##  Presentación del Proyecto: LazyTrip
+estamos desarrollando una aplicación pensada para transformar la experiencia de viajar.La idea nace con el objetivo de resolver el caos y la pérdida de tiempo que suele suponer planificar un viaje desde cero.
+##  ¿Qué vamos a hacer?
+**LazyTrip** es una plataforma diseñada para automatizar y simplificar la organización de viajes. Nuestra meta es ofrecer una herramienta intuitiva que permita a los usuarios generar itinerarios optimizados, 
+gestionar presupuestos y coordinarse fácilmente, haciendo que el proceso de planificación sea rápido, accesible y libre de estrés.
 
-## Getting Started
+##  Organización Repositorio
+Hemos realizado una carpeta Memorias con las memorias de cada sprint junto una carpeta assets que incluye documentos de apoyo a nuestro proyecto
 
-This project is a starting point for a Flutter application.
+## Nuestro Logo: 
+Nuestro logo transmite la esencia y filosofía de **LazyTrip**: el perezoso en la hamaca simboliza la calma y el descanso de dejar la planificación en nuestras manos para viajar sin estrés; la maleta representa la preparación rápida y sin complicaciones; y el avión junto a la brújula en el fondo refleja el espíritu de aventura, exploración y la capacidad de la plataforma para guiarte hacia cualquier destino del mundo.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Nuestras Ramas: 
+Nuestras 2 ramas incluyen el proyecto de Flutter en el que se desarrolla la aplicación.
